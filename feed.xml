@@ -1,5 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/haoz0x139/myblog</id><title>RSS feed of haoz0x139's myblog</title><updated>2023-02-01T08:11:36.501538+00:00</updated><author><name>haoz0x139</name><email>haoz0x139@gmail.com</email></author><link href="https://github.com/haoz0x139/myblog"/><link href="https://raw.githubusercontent.com/haoz0x139/myblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/haoz0x139/myblog/issues/1</id><title>WeeklyReport 2023</title><updated>2023-02-01T08:11:36.786167+00:00</updated><content type="html"><![CDATA[<h1>WeeklyReport/2023/D01</h1>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/haoz0x139/myblog</id><title>RSS feed of haoz0x139's myblog</title><updated>2023-02-01T08:18:19.116111+00:00</updated><author><name>haoz0x139</name><email>haoz0x139@gmail.com</email></author><link href="https://github.com/haoz0x139/myblog"/><link href="https://raw.githubusercontent.com/haoz0x139/myblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/haoz0x139/myblog/issues/2</id><title>PersonReport 2023</title><updated>2023-02-01T08:18:19.547035+00:00</updated><content type="html"><![CDATA[<h1>PersonReport/D1</h1>
+<ul>
+<li>去年年底给奶奶买的衣服架到了，给她组装好了，才发现不满足要求，又没法退货，只能拿给老妈用了。</li>
+<li>老婆新冠阳了后，我就一直去父母那边吃饭，再给她送些饭。老妈吃饭的时候，还再感叹，你们阳了，我还想方设法的给你们补充营-养，你弟弟一个人在外，就可怜了。</li>
+<li>最近公司一直很忙，上周阳了，没那么严重，到公司，还要下车间干活，真是要了老命了。</li>
+<li>我和老婆，阳康后，一直咳嗽，主要是早晚咳嗽严重，天气暖和，就好点。哎……</li>
+</ul>
+]]></content><link href="https://github.com/haoz0x139/myblog/issues/2" rel="alternate"/><category term="PersonalReport"/><published>2023-02-01T08:17:42+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/1</id><title>WeeklyReport 2023</title><updated>2023-02-01T08:18:19.741025+00:00</updated><content type="html"><![CDATA[<h1>WeeklyReport/2023/D01</h1>
 <ul>
 <li>生产 - 团购商品Bom单添加</li>
 <li>电商 - 强制称重成功后，新增语音提示功能</li>

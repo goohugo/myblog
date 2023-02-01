@@ -5,6 +5,9 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 | Name | Link | Desc | 
  | ---- | ---- | ---- |
 ## 最近更新
+- [PersonReport 2023](https://github.com/haoz0x139/myblog/issues/2)--2023-02-01
 - [WeeklyReport 2023](https://github.com/haoz0x139/myblog/issues/1)--2023-02-01
+## PersonalReport
+- [PersonReport 2023](https://github.com/haoz0x139/myblog/issues/2)--2023-02-01
 ## WeeklyReport
 - [WeeklyReport 2023](https://github.com/haoz0x139/myblog/issues/1)--2023-02-01
