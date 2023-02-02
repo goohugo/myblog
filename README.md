@@ -8,6 +8,9 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 | 全历史 | https://www.allhistory.com/ | 以AI知识图谱为核心引擎，通过高度时空化、关联化数据的方式构造及展现数字人文内容，尤其是历史知识 |
 | 孟坤工具箱 | http://tool.mkblog.cn/ | 孟坤工具箱网页版 |
 | Postimages | https://postimages.org/ | 免费图片托管 / 图片上传 |
+| w2solo | http://w2solo.com/ | 独立开发者社区 |
+## 置顶文章
+- [WeeklyReport 2023](https://github.com/haoz0x139/myblog/issues/1)--2023-02-01
 ## 最近更新
 - [奇趣网站](https://github.com/haoz0x139/myblog/issues/6)--2023-02-02
 - [微信小程序需要学习的东西](https://github.com/haoz0x139/myblog/issues/5)--2023-02-02
