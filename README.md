@@ -12,18 +12,25 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 ## 置顶文章
 - [WeeklyReport 2023](https://github.com/haoz0x139/myblog/issues/1)--2023-02-01
 ## 最近更新
+- [二零二三年的几个目标](https://github.com/haoz0x139/myblog/issues/7)--2023-02-02
 - [奇趣网站](https://github.com/haoz0x139/myblog/issues/6)--2023-02-02
 - [微信小程序需要学习的东西](https://github.com/haoz0x139/myblog/issues/5)--2023-02-02
 - [张小龙的饭否](https://github.com/haoz0x139/myblog/issues/4)--2023-02-02
 - [PersonReport 2023](https://github.com/haoz0x139/myblog/issues/2)--2023-02-01
-- [WeeklyReport 2023](https://github.com/haoz0x139/myblog/issues/1)--2023-02-01
-## PersonalReport
-- [PersonReport 2023](https://github.com/haoz0x139/myblog/issues/2)--2023-02-01
-## WeeklyReport
-- [WeeklyReport 2023](https://github.com/haoz0x139/myblog/issues/1)--2023-02-01
 ## 一些记录
 - [张小龙的饭否](https://github.com/haoz0x139/myblog/issues/4)--2023-02-02
+- [PersonReport 2023](https://github.com/haoz0x139/myblog/issues/2)--2023-02-01
+- [WeeklyReport 2023](https://github.com/haoz0x139/myblog/issues/1)--2023-02-01
 ## TODO
+TODO list from [二零二三年的几个目标](https://github.com/haoz0x139/myblog/issues/7)--6 jobs to do--1 jobs done
+- [x]  微信小程序开发指南
+- [ ]  通过科目三考试，拿到驾照
+- [ ]  学习微信小程序开发
+- [ ]  重启Web B/S 项目开发
+- [ ]  减掉小肚子，体重降至65Kg
+- [ ]  WCF高级编程 
+- [ ]  重来3.0
+
 TODO list from [微信小程序需要学习的东西](https://github.com/haoz0x139/myblog/issues/5)--3 jobs to do--0 jobs done
 - [ ]  熟练掌握HTML语言、CSS、JavaScript
 - [ ]  服务器语言 Java Python PHP

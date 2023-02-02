@@ -1,13 +1,25 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/haoz0x139/myblog</id><title>RSS feed of haoz0x139's myblog</title><updated>2023-02-02T08:28:13.283130+00:00</updated><author><name>haoz0x139</name><email>haoz0x139@gmail.com</email></author><link href="https://github.com/haoz0x139/myblog"/><link href="https://raw.githubusercontent.com/haoz0x139/myblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/haoz0x139/myblog/issues/6</id><title>奇趣网站</title><updated>2023-02-02T08:28:13.549141+00:00</updated><content type="html"><![CDATA[<ul>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/haoz0x139/myblog</id><title>RSS feed of haoz0x139's myblog</title><updated>2023-02-02T08:53:19.400435+00:00</updated><author><name>haoz0x139</name><email>haoz0x139@gmail.com</email></author><link href="https://github.com/haoz0x139/myblog"/><link href="https://raw.githubusercontent.com/haoz0x139/myblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/haoz0x139/myblog/issues/7</id><title>二零二三年的几个目标</title><updated>2023-02-02T08:53:19.702326+00:00</updated><content type="html"><![CDATA[<ul>
+<li><input disabled="" type="checkbox">  通过科目三考试，拿到驾照</li>
+<li><input disabled="" type="checkbox">  学习微信小程序开发</li>
+<li><input disabled="" type="checkbox">  重启Web B/S 项目开发</li>
+<li><input disabled="" type="checkbox">  减掉小肚子，体重降至65Kg</li>
+</ul>
+<h1>技术书籍阅读</h1>
+<ul>
+<li><input disabled="" type="checkbox">  WCF高级编程 </li>
+<li><input disabled="" type="checkbox">  重来3.0</li>
+<li><input checked="" disabled="" type="checkbox">  微信小程序开发指南</li>
+</ul>
+]]></content><link href="https://github.com/haoz0x139/myblog/issues/7" rel="alternate"/><category term="TODO"/><published>2023-02-02T08:52:46+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/6</id><title>奇趣网站</title><updated>2023-02-02T08:53:19.824795+00:00</updated><content type="html"><![CDATA[<ul>
 <li>收藏有趣的网站</li>
 </ul>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/6" rel="alternate"/><category term="Friends"/><published>2023-02-02T07:53:36+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/5</id><title>微信小程序需要学习的东西</title><updated>2023-02-02T08:28:13.653487+00:00</updated><content type="html"><![CDATA[<ul>
+]]></content><link href="https://github.com/haoz0x139/myblog/issues/6" rel="alternate"/><category term="Friends"/><published>2023-02-02T07:53:36+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/5</id><title>微信小程序需要学习的东西</title><updated>2023-02-02T08:53:19.956629+00:00</updated><content type="html"><![CDATA[<ul>
 <li><input disabled="" type="checkbox">  熟练掌握HTML语言、CSS、JavaScript</li>
 <li><input disabled="" type="checkbox">  服务器语言 Java Python PHP</li>
 <li><input disabled="" type="checkbox">  数据库语言 mysql</li>
 </ul>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/5" rel="alternate"/><category term="TODO"/><published>2023-02-02T07:41:45+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/4</id><title>张小龙的饭否</title><updated>2023-02-02T08:28:13.770706+00:00</updated><content type="html"><![CDATA[<h2>张小龙的饭否</h2>
+]]></content><link href="https://github.com/haoz0x139/myblog/issues/5" rel="alternate"/><category term="TODO"/><published>2023-02-02T07:41:45+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/4</id><title>张小龙的饭否</title><updated>2023-02-02T08:53:20.084559+00:00</updated><content type="html"><![CDATA[<h2>张小龙的饭否</h2>
 <p>即使不针对人的话，回过头看看十年前的言论也很有意思，有一种时间的错位感，10 年过去，有些变了，有些没变。而这十年，互联网变了好多，也有一些留住的东西。嗯，10 年过去了，墙还在，更高了一点儿。而当时，有趣就有趣在，这些现在看起来的名人不用在平台受舆论监控，一般都是想说什么就说什么，也是唯一我们能看到真实的他们的几年了。</p>
 <h3>一些有意思的</h3>
 <pre><code class="language-yml">
@@ -150,14 +162,14 @@ Jobs是个被艺术化的商人，现在在跟android比销量。http://cnbeta.c
 
 </code></pre>
 <p>记录下: 来自 -- <a href="https://github.com/Allianzcortex/FF-Backup/blob/master/Allenzhang_fanfou_backup">https://github.com/Allianzcortex/FF-Backup/blob/master/Allenzhang_fanfou_backup</a></p>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/4" rel="alternate"/><category term="一些记录"/><published>2023-02-02T07:23:27+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/2</id><title>PersonReport 2023</title><updated>2023-02-02T08:28:13.907666+00:00</updated><content type="html"><![CDATA[<h1>D1</h1>
+]]></content><link href="https://github.com/haoz0x139/myblog/issues/4" rel="alternate"/><category term="一些记录"/><published>2023-02-02T07:23:27+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/2</id><title>PersonReport 2023</title><updated>2023-02-02T08:53:20.209522+00:00</updated><content type="html"><![CDATA[<h1>D1</h1>
 <ul>
 <li>去年年底给奶奶买的衣服架到了，给她组装好了，才发现不满足要求，又没法退货，只能拿给老妈用了。</li>
 <li>老婆新冠阳了后，我就一直去父母那边吃饭，再给她送些饭。老妈吃饭的时候，还再感叹，你们阳了，我还想方设法的给你们补充营-养，你弟弟一个人在外，就可怜了。</li>
 <li>最近公司一直很忙，上周阳了，没那么严重，到公司，还要下车间干活，真是要了老命了。</li>
 <li>我和老婆，阳康后，一直咳嗽，主要是早晚咳嗽严重，天气暖和，就好点。哎……</li>
 </ul>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/2" rel="alternate"/><category term="PersonalReport"/><published>2023-02-01T08:17:42+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/1</id><title>WeeklyReport 2023</title><updated>2023-02-02T08:28:14.026048+00:00</updated><content type="html"><![CDATA[<h1>D01</h1>
+]]></content><link href="https://github.com/haoz0x139/myblog/issues/2" rel="alternate"/><category term="一些记录"/><published>2023-02-01T08:17:42+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/1</id><title>WeeklyReport 2023</title><updated>2023-02-02T08:53:20.332925+00:00</updated><content type="html"><![CDATA[<h1>D01</h1>
 <ul>
 <li>生产 - 团购商品Bom单添加</li>
 <li>电商 - 强制称重成功后，新增语音提示功能</li>
@@ -165,4 +177,4 @@ Jobs是个被艺术化的商人，现在在跟android比销量。http://cnbeta.c
 <li>电商 - 线下订单快递单号填充自动为订单编号</li>
 <li>电商 - 协助电商解决邮政小包部分订单更换快递打印问题</li>
 </ul>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/1" rel="alternate"/><category term="WeeklyReport"/><category term="Top"/><published>2023-02-01T07:49:29+00:00</published></entry></feed>
+]]></content><link href="https://github.com/haoz0x139/myblog/issues/1" rel="alternate"/><category term="一些记录"/><category term="Top"/><published>2023-02-01T07:49:29+00:00</published></entry></feed>
