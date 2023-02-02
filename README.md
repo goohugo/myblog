@@ -5,6 +5,7 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 | Name | Link | Desc | 
  | ---- | ---- | ---- |
 | 知性 | https://knowsex.net/ | 知性 KnowSex 是一个性教育网站 |
+| 全历史 | https://www.allhistory.com/ | 以AI知识图谱为核心引擎，通过高度时空化、关联化数据的方式构造及展现数字人文内容，尤其是历史知识 |
 ## 最近更新
 - [奇趣网站](https://github.com/haoz0x139/myblog/issues/6)--2023-02-02
 - [微信小程序需要学习的东西](https://github.com/haoz0x139/myblog/issues/5)--2023-02-02
