@@ -12,11 +12,11 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 ## 置顶文章
 - [WeeklyReport 2023](https://github.com/haoz0x139/myblog/issues/1)--2023-02-01
 ## 最近更新
+- [梦境记录](https://github.com/haoz0x139/myblog/issues/8)--2023-02-02
 - [二零二三年的几个目标](https://github.com/haoz0x139/myblog/issues/7)--2023-02-02
 - [奇趣网站](https://github.com/haoz0x139/myblog/issues/6)--2023-02-02
 - [微信小程序需要学习的东西](https://github.com/haoz0x139/myblog/issues/5)--2023-02-02
 - [张小龙的饭否](https://github.com/haoz0x139/myblog/issues/4)--2023-02-02
-- [PersonReport 2023](https://github.com/haoz0x139/myblog/issues/2)--2023-02-01
 ## 一些记录
 - [张小龙的饭否](https://github.com/haoz0x139/myblog/issues/4)--2023-02-02
 - [PersonReport 2023](https://github.com/haoz0x139/myblog/issues/2)--2023-02-01
