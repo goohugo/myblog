@@ -4,6 +4,7 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 ## 奇趣网站
 | Name | Link | Desc | 
  | ---- | ---- | ---- |
+| 知性 | https://knowsex.net/ | 知性 KnowSex 是一个性教育网站 |
 ## 最近更新
 - [奇趣网站](https://github.com/haoz0x139/myblog/issues/6)--2023-02-02
 - [微信小程序需要学习的东西](https://github.com/haoz0x139/myblog/issues/5)--2023-02-02
@@ -15,7 +16,6 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 ## WeeklyReport
 - [WeeklyReport 2023](https://github.com/haoz0x139/myblog/issues/1)--2023-02-01
 ## 一些记录
-- [奇趣网站](https://github.com/haoz0x139/myblog/issues/6)--2023-02-02
 - [张小龙的饭否](https://github.com/haoz0x139/myblog/issues/4)--2023-02-02
 ## TODO
 TODO list from [微信小程序需要学习的东西](https://github.com/haoz0x139/myblog/issues/5)--3 jobs to do--0 jobs done
