@@ -85,6 +85,12 @@ scoop bucket add extras https://mirror.nju.edu.cn/git/scoop-extras.git
 ```
 scoop bucket add dorado https://gitee.com/scoop-bucket/dorado.git
 ```
+
+# 使用Scoop安装常用软件
+```
+scoop install 7zip aria2 python vscode typora vlc sumatrapdf
+```
+
 # 每次添加完仓库记得更新一下！
 ```
 scoop update
