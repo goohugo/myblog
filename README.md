@@ -12,15 +12,17 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 ## 置顶文章
 - [WeeklyReport 2023](https://github.com/haoz0x139/myblog/issues/1)--2023-02-01
 ## 最近更新
+- [Scoop windows下的包管理器](https://github.com/haoz0x139/myblog/issues/9)--2023-02-03
 - [梦境记录](https://github.com/haoz0x139/myblog/issues/8)--2023-02-02
 - [二零二三年的几个目标](https://github.com/haoz0x139/myblog/issues/7)--2023-02-02
 - [奇趣网站](https://github.com/haoz0x139/myblog/issues/6)--2023-02-02
 - [Wechat app  learning list](https://github.com/haoz0x139/myblog/issues/5)--2023-02-02
-- [张小龙的饭否](https://github.com/haoz0x139/myblog/issues/4)--2023-02-02
 ## 一些记录
 - [张小龙的饭否](https://github.com/haoz0x139/myblog/issues/4)--2023-02-02
 - [PersonReport 2023](https://github.com/haoz0x139/myblog/issues/2)--2023-02-01
 - [WeeklyReport 2023](https://github.com/haoz0x139/myblog/issues/1)--2023-02-01
+## 技术文章
+- [Scoop windows下的包管理器](https://github.com/haoz0x139/myblog/issues/9)--2023-02-03
 ## 日记
 - [梦境记录](https://github.com/haoz0x139/myblog/issues/8)--2023-02-02
 ## TODO
