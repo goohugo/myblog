@@ -21,6 +21,8 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [张小龙的饭否](https://github.com/haoz0x139/myblog/issues/4)--2023-02-02
 - [PersonReport 2023](https://github.com/haoz0x139/myblog/issues/2)--2023-02-01
 - [WeeklyReport 2023](https://github.com/haoz0x139/myblog/issues/1)--2023-02-01
+## 日记
+- [梦境记录](https://github.com/haoz0x139/myblog/issues/8)--2023-02-02
 ## TODO
 TODO list from [二零二三年的几个目标](https://github.com/haoz0x139/myblog/issues/7)--6 jobs to do--1 jobs done
 - [x]  微信小程序开发指南
