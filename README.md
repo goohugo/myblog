@@ -18,6 +18,8 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [Scoop windows下的包管理器](https://github.com/haoz0x139/myblog/issues/9)--2023-02-03
 - [梦境记录](https://github.com/haoz0x139/myblog/issues/8)--2023-02-02
 ## 一些记录
+- [语录摘抄](https://github.com/haoz0x139/myblog/issues/11)--2023-02-09
+- [梦境记录](https://github.com/haoz0x139/myblog/issues/8)--2023-02-02
 - [张小龙的饭否](https://github.com/haoz0x139/myblog/issues/4)--2023-02-02
 - [PersonReport 2023](https://github.com/haoz0x139/myblog/issues/2)--2023-02-01
 - [WeeklyReport 2023](https://github.com/haoz0x139/myblog/issues/1)--2023-02-01
