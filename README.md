@@ -10,6 +10,7 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 | Postimages | https://postimages.org/ | 免费图片托管 / 图片上传 |
 | w2solo | http://w2solo.com/ | 独立开发者社区 |
 |  e Disk | http://dotnettalk.ysepan.com/ |  永硕E盘 |
+|  小纸条  | https://u.gitcafe.net/ |  阿里云盘资源站 |
 ## 置顶文章
 - [WeeklyReport 2023](https://github.com/haoz0x139/myblog/issues/1)--2023-02-01
 ## 最近更新
