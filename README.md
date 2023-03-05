@@ -1,6 +1,6 @@
 ## Gitblog
 My personal blog using issues and GitHub Actions (随意转载，无需署名)
-[RSS Feed](https://raw.githubusercontent.com/haoz0x139/myblog/master/feed.xml)
+[RSS Feed](https://raw.githubusercontent.com/haoz0x139/myblog/main/feed.xml)
 ## 奇趣网站
 | Name | Link | Desc | 
  | ---- | ---- | ---- |
