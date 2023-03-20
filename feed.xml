@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/haoz0x139/myblog</id><title>RSS feed of haoz0x139's myblog</title><updated>2023-03-20T01:04:22.670415+00:00</updated><author><name>haoz0x139</name><email>haoz0x139@gmail.com</email></author><link href="https://github.com/haoz0x139/myblog"/><link href="https://raw.githubusercontent.com/haoz0x139/myblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/haoz0x139/myblog/issues/15</id><title>风寒感冒和风热感冒</title><updated>2023-03-20T01:04:22.907682+00:00</updated><content type="html"><![CDATA[<p><img src="https://user-images.githubusercontent.com/124132611/226222944-2efdc704-dca1-439f-b283-c4e7008a3ea7.jpg" alt="风寒感冒和风热感冒" /></p>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/15" rel="alternate"/><category term="生活"/><published>2023-03-20T01:03:18+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/14</id><title>有哪些很重要又被忽视的炒菜技巧</title><updated>2023-03-20T01:04:23.042384+00:00</updated><content type="html"><![CDATA[<p><img src="https://user-images.githubusercontent.com/124132611/226222852-8764be7c-652c-4e2c-9ff9-6371c86fec32.jpg" alt="有哪些很重要又被忽视的炒菜技巧" /></p>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/14" rel="alternate"/><category term="生活"/><published>2023-03-20T01:01:19+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/13</id><title>解决Win10电脑无法登录微软账号的方法</title><updated>2023-03-20T01:04:23.129299+00:00</updated><content type="html"><![CDATA[<p>设置IP地址的dns为
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/haoz0x139/myblog</id><title>RSS feed of haoz0x139's myblog</title><updated>2023-03-20T01:07:04.578813+00:00</updated><author><name>haoz0x139</name><email>haoz0x139@gmail.com</email></author><link href="https://github.com/haoz0x139/myblog"/><link href="https://raw.githubusercontent.com/haoz0x139/myblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/haoz0x139/myblog/issues/15</id><title>风寒感冒和风热感冒</title><updated>2023-03-20T01:07:04.972573+00:00</updated><content type="html"><![CDATA[<p><img src="https://user-images.githubusercontent.com/124132611/226222944-2efdc704-dca1-439f-b283-c4e7008a3ea7.jpg" alt="风寒感冒和风热感冒" /></p>
+]]></content><link href="https://github.com/haoz0x139/myblog/issues/15" rel="alternate"/><category term="生活"/><published>2023-03-20T01:03:18+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/14</id><title>有哪些很重要又被忽视的炒菜技巧</title><updated>2023-03-20T01:07:05.138496+00:00</updated><content type="html"><![CDATA[<p><img src="https://user-images.githubusercontent.com/124132611/226222852-8764be7c-652c-4e2c-9ff9-6371c86fec32.jpg" alt="有哪些很重要又被忽视的炒菜技巧" /></p>
+]]></content><link href="https://github.com/haoz0x139/myblog/issues/14" rel="alternate"/><category term="生活"/><published>2023-03-20T01:01:19+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/13</id><title>解决Win10电脑无法登录微软账号的方法</title><updated>2023-03-20T01:07:05.296996+00:00</updated><content type="html"><![CDATA[<p>设置IP地址的dns为
 <img src="https://user-images.githubusercontent.com/124132611/222939891-269df6d3-787f-452f-8874-1897ced6712c.png" alt="IP地址" /></p>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/13" rel="alternate"/><category term="技术文章"/><published>2023-03-05T03:20:15+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/12</id><title>省市区地址解析</title><updated>2023-03-20T01:04:23.227697+00:00</updated><content type="html"><![CDATA[<pre><code>public string Analysis(string address)
+]]></content><link href="https://github.com/haoz0x139/myblog/issues/13" rel="alternate"/><category term="技术文章"/><published>2023-03-05T03:20:15+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/12</id><title>省市区地址解析</title><updated>2023-03-20T01:07:05.530363+00:00</updated><content type="html"><![CDATA[<pre><code>public string Analysis(string address)
 {  
             string regex = @&quot;(?&lt;province&gt;[^省]+自治区|.*?省)?(?&lt;city&gt;[^市]+自治州|.*?地区|.*?行政单位|.+盟|市辖区|.*?市)?(?&lt;county&gt;[^县]+县|[^区]+区|[^市]+市|.+旗|.+海域|.+岛)?(?&lt;town&gt;[^区]+区|.+镇|.+办事处)?(?&lt;village&gt;.*)&quot;;
             var m = Regex.Match(addr, regex, RegexOptions.IgnoreCase);
@@ -14,9 +14,9 @@
             var village = m.Groups[&quot;village&quot;].Value;//详细地址
 }
 </code></pre>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/12" rel="alternate"/><category term="开发笔记"/><published>2023-02-13T05:05:40+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/11</id><title>读书笔记</title><updated>2023-03-20T01:04:23.324792+00:00</updated><content type="html"><![CDATA[<p>something good note
+]]></content><link href="https://github.com/haoz0x139/myblog/issues/12" rel="alternate"/><category term="开发笔记"/><published>2023-02-13T05:05:40+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/11</id><title>读书笔记</title><updated>2023-03-20T01:07:05.687419+00:00</updated><content type="html"><![CDATA[<p>something good note
 饭否 推特 即刻</p>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/11" rel="alternate"/><category term="一些记录"/><published>2023-02-09T22:34:08+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/10</id><title>git中的SSL certificate problem: unable to get local issuer certificate错误的解决办法</title><updated>2023-03-20T01:04:23.409183+00:00</updated><content type="html"><![CDATA[<p>我们在使用git初始化一个项目时，尤其是通过git submodule update --init --remote初始化子模块时，可能会遇到下面这个错误：
+]]></content><link href="https://github.com/haoz0x139/myblog/issues/11" rel="alternate"/><category term="一些记录"/><published>2023-02-09T22:34:08+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/10</id><title>git中的SSL certificate problem: unable to get local issuer certificate错误的解决办法</title><updated>2023-03-20T01:07:05.903792+00:00</updated><content type="html"><![CDATA[<p>我们在使用git初始化一个项目时，尤其是通过git submodule update --init --remote初始化子模块时，可能会遇到下面这个错误：
 fatal: unable to access 'https://myserver.com/gogs/user1/myapp/': SSL certificate problem: unable to get local issuer certificate</p>
 <p>这是由于当你通过HTTPS访问Git远程仓库的时候，如果服务器上的SSL证书未经过第三方机构认证，git就会报错。原因是因为未知的没有签署过的证书意味着可能存在很大的风险。解决办法就是通过下面的命令将git中的sslverify关掉：</p>
 <pre><code>git config --global http.sslverify false
@@ -31,7 +31,7 @@ fatal: unable to access 'https://myserver.com/gogs/user1/myapp/': SSL certificat
 <pre><code>npm config set strict-ssl false
 </code></pre>
 <p>对于npm而言，除了可以在package.json的scripts属性中自定义脚本外，npm-scripts也内置了一些脚本，用来在特定的时机执行某些特定的任务，具体可以参照npm的官方文档https://docs.npmjs.com/misc/scripts</p>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/10" rel="alternate"/><category term="技术文章"/><published>2023-02-07T01:13:10+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/9</id><title>Scoop windows下的包管理器</title><updated>2023-03-20T01:04:23.506278+00:00</updated><content type="html"><![CDATA[<h1>Scoop 安装</h1>
+]]></content><link href="https://github.com/haoz0x139/myblog/issues/10" rel="alternate"/><category term="技术文章"/><published>2023-02-07T01:13:10+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/9</id><title>Scoop windows下的包管理器</title><updated>2023-03-20T01:07:06.097608+00:00</updated><content type="html"><![CDATA[<h1>Scoop 安装</h1>
 <h2>环境需求</h2>
 <ul>
 <li>PowerShell 5 +</li>
@@ -124,11 +124,11 @@ scoop update *  #更新所有软件
 scoop list  #列出已安装的软件
 scoop bucket list  #列出已订阅的仓库
 </code></pre>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/9" rel="alternate"/><category term="技术文章"/><published>2023-02-03T08:20:51+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/8</id><title>梦境记录</title><updated>2023-03-20T01:04:23.610045+00:00</updated><content type="html"><![CDATA[<ul>
+]]></content><link href="https://github.com/haoz0x139/myblog/issues/9" rel="alternate"/><category term="技术文章"/><published>2023-02-03T08:20:51+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/8</id><title>梦境记录</title><updated>2023-03-20T01:07:06.284513+00:00</updated><content type="html"><![CDATA[<ul>
 <li>时间：2023-02-03 03:40</li>
 <li>内容：只记得最后回家的楼道口，遇见好多死老鼠，实在无法下脚，而且，我又特别害怕老鼠，活得死的都在一块，哎，就这样给惊醒了…😓</li>
 </ul>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/8" rel="alternate"/><category term="一些记录"/><category term="日记"/><published>2023-02-02T20:03:50+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/7</id><title>二零二三年的几个目标</title><updated>2023-03-20T01:04:23.701541+00:00</updated><content type="html"><![CDATA[<ul>
+]]></content><link href="https://github.com/haoz0x139/myblog/issues/8" rel="alternate"/><category term="一些记录"/><category term="日记"/><published>2023-02-02T20:03:50+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/7</id><title>二零二三年的几个目标</title><updated>2023-03-20T01:07:06.453767+00:00</updated><content type="html"><![CDATA[<ul>
 <li><input disabled="" type="checkbox">  通过科目三考试，拿到驾照</li>
 <li><input disabled="" type="checkbox">  学习微信小程序开发</li>
 <li><input disabled="" type="checkbox">  重启Web B/S 项目开发</li>
@@ -140,15 +140,15 @@ scoop bucket list  #列出已订阅的仓库
 <li><input disabled="" type="checkbox">  重来3.0</li>
 <li><input checked="" disabled="" type="checkbox">  微信小程序开发指南</li>
 </ul>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/7" rel="alternate"/><category term="TODO"/><published>2023-02-02T08:52:46+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/6</id><title>奇趣网站</title><updated>2023-03-20T01:04:23.797082+00:00</updated><content type="html"><![CDATA[<ul>
+]]></content><link href="https://github.com/haoz0x139/myblog/issues/7" rel="alternate"/><category term="TODO"/><published>2023-02-02T08:52:46+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/6</id><title>奇趣网站</title><updated>2023-03-20T01:07:06.639827+00:00</updated><content type="html"><![CDATA[<ul>
 <li>收藏有趣的网站</li>
 </ul>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/6" rel="alternate"/><category term="Friends"/><published>2023-02-02T07:53:36+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/5</id><title>Wechat app  learning list</title><updated>2023-03-20T01:04:23.896723+00:00</updated><content type="html"><![CDATA[<ul>
+]]></content><link href="https://github.com/haoz0x139/myblog/issues/6" rel="alternate"/><category term="Friends"/><published>2023-02-02T07:53:36+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/5</id><title>Wechat app  learning list</title><updated>2023-03-20T01:07:06.864455+00:00</updated><content type="html"><![CDATA[<ul>
 <li><input disabled="" type="checkbox">  熟练掌握HTML语言、CSS、JavaScript</li>
 <li><input disabled="" type="checkbox">  服务器语言 Java Python PHP</li>
 <li><input disabled="" type="checkbox">  数据库语言 mysql</li>
 </ul>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/5" rel="alternate"/><category term="TODO"/><published>2023-02-02T07:41:45+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/4</id><title>张小龙的饭否</title><updated>2023-03-20T01:04:24.000534+00:00</updated><content type="html"><![CDATA[<h2>张小龙的饭否</h2>
+]]></content><link href="https://github.com/haoz0x139/myblog/issues/5" rel="alternate"/><category term="TODO"/><published>2023-02-02T07:41:45+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/4</id><title>张小龙的饭否</title><updated>2023-03-20T01:07:07.077912+00:00</updated><content type="html"><![CDATA[<h2>张小龙的饭否</h2>
 <p>即使不针对人的话，回过头看看十年前的言论也很有意思，有一种时间的错位感，10 年过去，有些变了，有些没变。而这十年，互联网变了好多，也有一些留住的东西。嗯，10 年过去了，墙还在，更高了一点儿。而当时，有趣就有趣在，这些现在看起来的名人不用在平台受舆论监控，一般都是想说什么就说什么，也是唯一我们能看到真实的他们的几年了。</p>
 <h3>一些有意思的</h3>
 <pre><code class="language-yml">
@@ -291,14 +291,14 @@ Jobs是个被艺术化的商人，现在在跟android比销量。http://cnbeta.c
 
 </code></pre>
 <p>记录下: 来自 -- <a href="https://github.com/Allianzcortex/FF-Backup/blob/master/Allenzhang_fanfou_backup">https://github.com/Allianzcortex/FF-Backup/blob/master/Allenzhang_fanfou_backup</a></p>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/4" rel="alternate"/><category term="一些记录"/><published>2023-02-02T07:23:27+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/2</id><title>PersonalReport 2023</title><updated>2023-03-20T01:04:24.093582+00:00</updated><content type="html"><![CDATA[<h1>D01</h1>
+]]></content><link href="https://github.com/haoz0x139/myblog/issues/4" rel="alternate"/><category term="一些记录"/><published>2023-02-02T07:23:27+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/2</id><title>PersonalReport 2023</title><updated>2023-03-20T01:07:07.248291+00:00</updated><content type="html"><![CDATA[<h1>D01</h1>
 <ul>
 <li>去年年底给奶奶买的衣服架到了，给她组装好了，才发现不满足要求，又没法退货，只能拿给老妈用了。</li>
 <li>老婆新冠阳了后，我就一直去父母那边吃饭，再给她送些饭。老妈吃饭的时候，还再感叹，你们阳了，我还想方设法的给你们补充营-养，你弟弟一个人在外，就可怜了。</li>
 <li>最近公司一直很忙，上周阳了，没那么严重，到公司，还要下车间干活，真是要了老命了。</li>
 <li>我和老婆，阳康后，一直咳嗽，主要是早晚咳嗽严重，天气暖和，就好点。哎……</li>
 </ul>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/2" rel="alternate"/><category term="一些记录"/><published>2023-02-01T08:17:42+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/1</id><title>WeeklyReport 2023</title><updated>2023-03-20T01:04:24.175367+00:00</updated><content type="html"><![CDATA[<h1>D01</h1>
+]]></content><link href="https://github.com/haoz0x139/myblog/issues/2" rel="alternate"/><category term="一些记录"/><published>2023-02-01T08:17:42+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/1</id><title>WeeklyReport 2023</title><updated>2023-03-20T01:07:07.442668+00:00</updated><content type="html"><![CDATA[<h1>D01</h1>
 <ul>
 <li>生产 - 团购商品Bom单添加</li>
 <li>电商 - 强制称重成功后，新增语音提示功能</li>
