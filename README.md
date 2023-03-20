@@ -13,11 +13,11 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 ## 置顶文章
 - [WeeklyReport 2023](https://github.com/haoz0x139/myblog/issues/1)--2023-02-01
 ## 最近更新
+- [风寒感冒和风热感冒](https://github.com/haoz0x139/myblog/issues/15)--2023-03-20
 - [有哪些很重要又被忽视的炒菜技巧](https://github.com/haoz0x139/myblog/issues/14)--2023-03-20
 - [解决Win10电脑无法登录微软账号的方法](https://github.com/haoz0x139/myblog/issues/13)--2023-03-05
 - [省市区地址解析](https://github.com/haoz0x139/myblog/issues/12)--2023-02-13
 - [读书笔记](https://github.com/haoz0x139/myblog/issues/11)--2023-02-09
-- [git中的SSL certificate problem: unable to get local issuer certificate错误的解决办法](https://github.com/haoz0x139/myblog/issues/10)--2023-02-07
 ## 一些记录
 - [读书笔记](https://github.com/haoz0x139/myblog/issues/11)--2023-02-09
 - [梦境记录](https://github.com/haoz0x139/myblog/issues/8)--2023-02-02
@@ -32,6 +32,9 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [Scoop windows下的包管理器](https://github.com/haoz0x139/myblog/issues/9)--2023-02-03
 ## 日记
 - [梦境记录](https://github.com/haoz0x139/myblog/issues/8)--2023-02-02
+## 生活
+- [风寒感冒和风热感冒](https://github.com/haoz0x139/myblog/issues/15)--2023-03-20
+- [有哪些很重要又被忽视的炒菜技巧](https://github.com/haoz0x139/myblog/issues/14)--2023-03-20
 ## TODO
 TODO list from [二零二三年的几个目标](https://github.com/haoz0x139/myblog/issues/7)--6 jobs to do--1 jobs done
 - [x]  微信小程序开发指南
