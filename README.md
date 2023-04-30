@@ -14,7 +14,7 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 ## 置顶文章
 - [WeeklyReport 2023](https://github.com/haoz0x139/myblog/issues/1)--2023-02-01
 ## 最近更新
-- [.Net调用SerialPort类搞定电商包裹称重](https://github.com/haoz0x139/myblog/issues/18)--2023-04-30
+- [.Net调用SerialPort类搞定电商包裹称重问题](https://github.com/haoz0x139/myblog/issues/18)--2023-04-30
 - [Github访问速度慢的解决方案](https://github.com/haoz0x139/myblog/issues/17)--2023-04-30
 - [SQL2012的新分页方法](https://github.com/haoz0x139/myblog/issues/16)--2023-04-29
 - [风寒感冒和风热感冒](https://github.com/haoz0x139/myblog/issues/15)--2023-03-20
@@ -24,7 +24,7 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [张小龙的饭否](https://github.com/haoz0x139/myblog/issues/4)--2023-02-02
 - [WeeklyReport 2023](https://github.com/haoz0x139/myblog/issues/1)--2023-02-01
 ## 开发笔记
-- [.Net调用SerialPort类搞定电商包裹称重](https://github.com/haoz0x139/myblog/issues/18)--2023-04-30
+- [.Net调用SerialPort类搞定电商包裹称重问题](https://github.com/haoz0x139/myblog/issues/18)--2023-04-30
 - [省市区地址解析](https://github.com/haoz0x139/myblog/issues/12)--2023-02-13
 ## 技术文章
 - [Github访问速度慢的解决方案](https://github.com/haoz0x139/myblog/issues/17)--2023-04-30
