@@ -14,12 +14,13 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 ## 置顶文章
 - [WeeklyReport 2023](https://github.com/haoz0x139/myblog/issues/1)--2023-02-01
 ## 最近更新
+- [[笔记]皮囊 ](https://github.com/haoz0x139/myblog/issues/19)--2023-04-30
 - [.Net调用SerialPort类搞定电商包裹称重问题](https://github.com/haoz0x139/myblog/issues/18)--2023-04-30
 - [Github访问速度慢的解决方案](https://github.com/haoz0x139/myblog/issues/17)--2023-04-30
 - [SQL2012的新分页方法](https://github.com/haoz0x139/myblog/issues/16)--2023-04-29
 - [风寒感冒和风热感冒](https://github.com/haoz0x139/myblog/issues/15)--2023-03-20
-- [有哪些很重要又被忽视的炒菜技巧](https://github.com/haoz0x139/myblog/issues/14)--2023-03-20
 ## 一些记录
+- [[笔记]皮囊 ](https://github.com/haoz0x139/myblog/issues/19)--2023-04-30
 - [读书笔记](https://github.com/haoz0x139/myblog/issues/11)--2023-02-09
 - [张小龙的饭否](https://github.com/haoz0x139/myblog/issues/4)--2023-02-02
 - [WeeklyReport 2023](https://github.com/haoz0x139/myblog/issues/1)--2023-02-01
