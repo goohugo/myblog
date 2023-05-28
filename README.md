@@ -34,5 +34,6 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [git中的SSL证书问题：无法获取本地颁发者证书错误的解决办法](https://github.com/haoz0x139/myblog/issues/10)--2023-02-07
 - [Scoop windows下的包管理器](https://github.com/haoz0x139/myblog/issues/9)--2023-02-03
 ## 生活
+- [科目三终于通过了](https://github.com/haoz0x139/myblog/issues/21)--2023-05-14
 - [风寒感冒和风热感冒](https://github.com/haoz0x139/myblog/issues/15)--2023-03-20
 - [有哪些很重要又被忽视的炒菜技巧](https://github.com/haoz0x139/myblog/issues/14)--2023-03-20
