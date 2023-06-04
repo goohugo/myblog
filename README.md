@@ -14,11 +14,11 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 ## 置顶文章
 - [WeeklyReport 2023](https://github.com/haoz0x139/myblog/issues/1)--2023-02-01
 ## 最近更新
+- [Win10神州网信政府版安装过程](https://github.com/haoz0x139/myblog/issues/22)--2023-06-04
 - [科目三终于通过了](https://github.com/haoz0x139/myblog/issues/21)--2023-05-14
 - [[笔记]纳瓦尔宝典](https://github.com/haoz0x139/myblog/issues/20)--2023-04-30
 - [[笔记]皮囊 ](https://github.com/haoz0x139/myblog/issues/19)--2023-04-30
 - [.Net调用SerialPort类搞定电商包裹称重问题](https://github.com/haoz0x139/myblog/issues/18)--2023-04-30
-- [Github访问速度慢的解决方案](https://github.com/haoz0x139/myblog/issues/17)--2023-04-30
 ## 一些记录
 - [[笔记]纳瓦尔宝典](https://github.com/haoz0x139/myblog/issues/20)--2023-04-30
 - [[笔记]皮囊 ](https://github.com/haoz0x139/myblog/issues/19)--2023-04-30
@@ -28,11 +28,16 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [.Net调用SerialPort类搞定电商包裹称重问题](https://github.com/haoz0x139/myblog/issues/18)--2023-04-30
 - [省市区地址解析](https://github.com/haoz0x139/myblog/issues/12)--2023-02-13
 ## 技术文章
+- [Win10神州网信政府版安装过程](https://github.com/haoz0x139/myblog/issues/22)--2023-06-04
 - [Github访问速度慢的解决方案](https://github.com/haoz0x139/myblog/issues/17)--2023-04-30
 - [SQL2012的新分页方法](https://github.com/haoz0x139/myblog/issues/16)--2023-04-29
 - [解决Win10电脑无法登录微软账号的方法](https://github.com/haoz0x139/myblog/issues/13)--2023-03-05
 - [git中的SSL证书问题：无法获取本地颁发者证书错误的解决办法](https://github.com/haoz0x139/myblog/issues/10)--2023-02-07
+<details><summary>显示更多</summary>
+
 - [Scoop windows下的包管理器](https://github.com/haoz0x139/myblog/issues/9)--2023-02-03
+</details>
+
 ## 生活
 - [科目三终于通过了](https://github.com/haoz0x139/myblog/issues/21)--2023-05-14
 - [风寒感冒和风热感冒](https://github.com/haoz0x139/myblog/issues/15)--2023-03-20
