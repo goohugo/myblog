@@ -1,6 +1,7 @@
 # [Ubuntu分区方案](https://github.com/haoz0x139/myblog/issues/24)
 
-# Ubuntu分区方案
+# Ubuntu分区方案 
+[原文地址](https://www.cnblogs.com/raina/p/11129375.html)
 - swap: 4G(跟你自己内存一样大)；主分区；空间起始位置；用于交换空间
 - /boot: 300M(太小会导致软件无法升级)；逻辑分区；空间起始位置；EXT4；/boot
 - /: 30G；主分区；空间起始位置；EXT4；/
@@ -20,3 +21,5 @@
 已经使用 Ubuntu 快一年了，贴一张各分区使用情况图：
 
 ![image](https://github.com/haoz0x139/myblog/assets/124132611/bdf837bd-f326-4af7-a4a2-0e3a957ee0bc)
+
+

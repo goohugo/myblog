@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/haoz0x139/myblog</id><title>RSS feed of haoz0x139's myblog</title><updated>2023-07-03T08:10:44.032821+00:00</updated><author><name>haoz0x139</name><email>haoz0x139@gmail.com</email></author><link href="https://github.com/haoz0x139/myblog"/><link href="https://raw.githubusercontent.com/haoz0x139/myblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/haoz0x139/myblog/issues/24</id><title>Ubuntu分区方案</title><updated>2023-07-03T08:10:44.322694+00:00</updated><content type="html"><![CDATA[<h1>Ubuntu分区方案</h1>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/haoz0x139/myblog</id><title>RSS feed of haoz0x139's myblog</title><updated>2023-07-03T08:12:23.269798+00:00</updated><author><name>haoz0x139</name><email>haoz0x139@gmail.com</email></author><link href="https://github.com/haoz0x139/myblog"/><link href="https://raw.githubusercontent.com/haoz0x139/myblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/haoz0x139/myblog/issues/24</id><title>Ubuntu分区方案</title><updated>2023-07-03T08:12:23.586833+00:00</updated><content type="html"><![CDATA[<h1>Ubuntu分区方案</h1>
+<p><a href="https://www.cnblogs.com/raina/p/11129375.html">原文地址</a></p>
 <ul>
 <li>swap: 4G(跟你自己内存一样大)；主分区；空间起始位置；用于交换空间</li>
 <li>/boot: 300M(太小会导致软件无法升级)；逻辑分区；空间起始位置；EXT4；/boot</li>
@@ -19,7 +20,7 @@
 </ul>
 <p>已经使用 Ubuntu 快一年了，贴一张各分区使用情况图：</p>
 <p><img src="https://github.com/haoz0x139/myblog/assets/124132611/bdf837bd-f326-4af7-a4a2-0e3a957ee0bc" alt="image" /></p>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/24" rel="alternate"/><category term="技术文章"/><published>2023-07-03T08:10:11+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/23</id><title>MySQL8绿色版安装简明教程</title><updated>2023-07-03T08:10:44.477022+00:00</updated><content type="html"><![CDATA[<h1>背景</h1>
+]]></content><link href="https://github.com/haoz0x139/myblog/issues/24" rel="alternate"/><category term="技术文章"/><published>2023-07-03T08:10:11+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/23</id><title>MySQL8绿色版安装简明教程</title><updated>2023-07-03T08:12:23.737703+00:00</updated><content type="html"><![CDATA[<h1>背景</h1>
 <ul>
 <li>开发安装MySQL8版本，但是直接使用安装包安装，无法设置安装路径，mysql会直接安装到系统盘。不喜欢这样，所以选择MySQL8绿色版安装</li>
 </ul>
@@ -127,7 +128,7 @@ default-character-set=utf8mb4
 </ul>
 </li>
 </ul>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/23" rel="alternate"/><category term="技术文章"/><published>2023-06-13T00:19:10+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/22</id><title>Win10神州网信政府版安装过程</title><updated>2023-07-03T08:10:44.614065+00:00</updated><content type="html"><![CDATA[<blockquote>
+]]></content><link href="https://github.com/haoz0x139/myblog/issues/23" rel="alternate"/><category term="技术文章"/><published>2023-06-13T00:19:10+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/22</id><title>Win10神州网信政府版安装过程</title><updated>2023-07-03T08:12:23.880718+00:00</updated><content type="html"><![CDATA[<blockquote>
 <p>Win10神州网信政府版（企业版G）下载地址
 64位（也只有64位的版本）
 ed2k://|file|CMGE_V2020-L.1207.iso|4736782336|8F2FC33635D79963CBB0A43C4A916200|/</p>
@@ -153,7 +154,7 @@ slmgr /skms kms.03k.org
 slmgr /ato
 </code></pre>
 <p>Enjoy it</p>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/22" rel="alternate"/><category term="技术文章"/><published>2023-06-04T07:24:35+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/21</id><title>科目三终于通过了</title><updated>2023-07-03T08:10:44.756091+00:00</updated><content type="html"><![CDATA[<blockquote>
+]]></content><link href="https://github.com/haoz0x139/myblog/issues/22" rel="alternate"/><category term="技术文章"/><published>2023-06-04T07:24:35+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/21</id><title>科目三终于通过了</title><updated>2023-07-03T08:12:24.019919+00:00</updated><content type="html"><![CDATA[<blockquote>
 <p>2023年5月11日终于通过了科目三考试，总结下这次可以一把通过考试的原因：</p>
 </blockquote>
 <ul>
@@ -167,7 +168,7 @@ slmgr /ato
 <li>在最后靠边停车，没有正确理解考官的意图，慌乱中，考官一脚刹车，拉起手刹，回空档，熄火，让我赶紧下车。我还以为自己挂了，但又感觉哪里不对，当我听到考试合格的指令后，才反应过来，原来自己通过了考试。</li>
 <li>感谢教练，没教练安排，可能不会把我排在后面一个上车，感谢考官，没有那一脚刹车，估计我也会像上一位一样，考第二遍，心态肯定要崩，也不会通过考试了。</li>
 </ul>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/21" rel="alternate"/><category term="生活"/><published>2023-05-14T09:00:22+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/20</id><title>[笔记]纳瓦尔宝典</title><updated>2023-07-03T08:10:44.875974+00:00</updated><content type="html"><![CDATA[<h1>纳瓦尔宝典</h1>
+]]></content><link href="https://github.com/haoz0x139/myblog/issues/21" rel="alternate"/><category term="生活"/><published>2023-05-14T09:00:22+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/20</id><title>[笔记]纳瓦尔宝典</title><updated>2023-07-03T08:12:24.163059+00:00</updated><content type="html"><![CDATA[<h1>纳瓦尔宝典</h1>
 <blockquote>
 <p>作者：埃里克·乔根森；数量：19个笔记；时间：2023-03-1811:23:07</p>
 </blockquote>
@@ -290,7 +291,7 @@ slmgr /ato
 </ul>
 </li>
 </ul>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/20" rel="alternate"/><category term="一些记录"/><published>2023-04-30T07:36:23+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/19</id><title>[笔记]皮囊 </title><updated>2023-07-03T08:10:45.017271+00:00</updated><content type="html"><![CDATA[<h1>皮囊</h1>
+]]></content><link href="https://github.com/haoz0x139/myblog/issues/20" rel="alternate"/><category term="一些记录"/><published>2023-04-30T07:36:23+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/19</id><title>[笔记]皮囊 </title><updated>2023-07-03T08:12:24.307072+00:00</updated><content type="html"><![CDATA[<h1>皮囊</h1>
 <blockquote>
 <p>作者：蔡崇达；数量：6个笔记；时间：2023-04-20 11:23:07</p>
 </blockquote>
@@ -324,7 +325,7 @@ slmgr /ato
 <ul>
 <li>在我生活的这个小镇，所有人都笃信举头三尺有神明，也相信有魂灵，人与鬼神亲近地生活着。我们还相信，魂灵有着和现世一样的属性，会饿到，也会吃太饱，会太胖，然后也会心情不好也会闷出病……</li>
 </ul>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/19" rel="alternate"/><category term="一些记录"/><published>2023-04-30T07:22:29+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/18</id><title>.Net调用SerialPort类搞定电商包裹称重问题</title><updated>2023-07-03T08:10:45.156927+00:00</updated><content type="html"><![CDATA[<p>目前，绝大部分电商管理综合平台都已经包含了包裹称重环节，特别是在一些食品类电商中，系统的包裹称重功能模块的设计可以有效地避免包裹重量出错，并及时检测出错异常包裹，从而减少包裹错发的情况。</p>
+]]></content><link href="https://github.com/haoz0x139/myblog/issues/19" rel="alternate"/><category term="一些记录"/><published>2023-04-30T07:22:29+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/18</id><title>.Net调用SerialPort类搞定电商包裹称重问题</title><updated>2023-07-03T08:12:24.450179+00:00</updated><content type="html"><![CDATA[<p>目前，绝大部分电商管理综合平台都已经包含了包裹称重环节，特别是在一些食品类电商中，系统的包裹称重功能模块的设计可以有效地避免包裹重量出错，并及时检测出错异常包裹，从而减少包裹错发的情况。</p>
 <p>在食品类电商ERP中，包裹称重功能通常出现在订单处理过程中。由于客户购买的多个产品规格不同，因此只能通过电子秤进行称重，以确定产品的净重量，避免了捡货错误的情况。如果包裹称重环节的设计不达标，将会导致错发漏发等问题，进一步影响售后服务质量。</p>
 <p>在包裹称重设计中，所有的产品都必须进行称重，产品属性中应该包括净重量和总重量。净重量表示产品的规格重量，例如40g的巴西松子的净重量为0.04kg；而总重量则包括商品和外包装袋的重量，一般大于净重量。此外，还需要对包裹纸箱进行称重，并记录每个规格的纸箱重量。纸箱也需要在系统的产品目录中进行登记。</p>
 <p>在包裹重量检测中，系统计算重量=纸箱重量+产品重量，实际称重重量应该控制在一个可控范围内。这是因为一些散称的产品一般都会比实际重量多几克。</p>
@@ -396,7 +397,7 @@ slmgr /ato
             }            
 }
 </code></pre>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/18" rel="alternate"/><category term="开发笔记"/><published>2023-04-30T06:45:32+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/17</id><title>Github访问速度慢的解决方案</title><updated>2023-07-03T08:10:45.294041+00:00</updated><content type="html"><![CDATA[<p>作为国内的用户，我相信绝大多数的家人们都遇到过一个问题，那就是访问github的时候非常非常慢。甚至有的时候访问网站页面直接死掉。这个时候该有人说了，我有梯子我不怕，上网速度嗖嗖的。</p>
+]]></content><link href="https://github.com/haoz0x139/myblog/issues/18" rel="alternate"/><category term="开发笔记"/><published>2023-04-30T06:45:32+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/17</id><title>Github访问速度慢的解决方案</title><updated>2023-07-03T08:12:24.585768+00:00</updated><content type="html"><![CDATA[<p>作为国内的用户，我相信绝大多数的家人们都遇到过一个问题，那就是访问github的时候非常非常慢。甚至有的时候访问网站页面直接死掉。这个时候该有人说了，我有梯子我不怕，上网速度嗖嗖的。</p>
 <p>但是如果我们不使用梯子的情况下该怎么办呢？毕竟使用github也是我们的日常。</p>
 <h1>Github打开慢的原因：</h1>
 <pre><code>  GitHub的CDN(Content Delivery Network,即内容分发网络)域名遭到DNS污染，无法连接使用GitHub的加速分发服务器，
@@ -440,7 +441,7 @@ https://toolwa.com/github/ （GitHub 加速下载）
 </code></pre>
 <p>也就是说上面的镜像就是一个克隆版的 GitHub，你可以访问上面的镜像网站，网站的内容跟 GitHub 是完整同步的镜像，然后在这个网站里面进行下载克隆等操作。</p>
 <p>注意是否已失效，当然也可搜索其他的镜像网址或加速网站。</p>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/17" rel="alternate"/><category term="技术文章"/><published>2023-04-30T04:48:33+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/16</id><title>SQL2012的新分页方法</title><updated>2023-07-03T08:10:45.433914+00:00</updated><content type="html"><![CDATA[<pre><code>DECLARE @PageNumber INT = 6
+]]></content><link href="https://github.com/haoz0x139/myblog/issues/17" rel="alternate"/><category term="技术文章"/><published>2023-04-30T04:48:33+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/16</id><title>SQL2012的新分页方法</title><updated>2023-07-03T08:12:24.718493+00:00</updated><content type="html"><![CDATA[<pre><code>DECLARE @PageNumber INT = 6
 DECLARE @RowsCountPerPage INT = 10
 
 SELECT  BusinessEntityID ,
@@ -452,8 +453,8 @@ ORDER BY BusinessEntityID
  FETCH NEXT @RowsCountPerPage ROWS ONLY
 
 </code></pre>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/16" rel="alternate"/><category term="技术文章"/><published>2023-04-29T09:19:51+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/15</id><title>风寒感冒和风热感冒</title><updated>2023-07-03T08:10:45.556145+00:00</updated><content type="html"><![CDATA[<p><img src="https://user-images.githubusercontent.com/124132611/232200121-6ebf7634-f8bb-41c4-88c9-8734cad423bc.png" alt="风寒感冒和风热感冒" /></p>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/15" rel="alternate"/><category term="生活"/><published>2023-03-20T01:03:18+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/14</id><title>有哪些很重要又被忽视的炒菜技巧</title><updated>2023-07-03T08:10:45.670801+00:00</updated><content type="html"><![CDATA[<p>1.肉类焯水要用冷水入锅，热水下锅外面的肉直接熟了，血水锁在里面出不来。</p>
+]]></content><link href="https://github.com/haoz0x139/myblog/issues/16" rel="alternate"/><category term="技术文章"/><published>2023-04-29T09:19:51+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/15</id><title>风寒感冒和风热感冒</title><updated>2023-07-03T08:12:24.846028+00:00</updated><content type="html"><![CDATA[<p><img src="https://user-images.githubusercontent.com/124132611/232200121-6ebf7634-f8bb-41c4-88c9-8734cad423bc.png" alt="风寒感冒和风热感冒" /></p>
+]]></content><link href="https://github.com/haoz0x139/myblog/issues/15" rel="alternate"/><category term="生活"/><published>2023-03-20T01:03:18+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/14</id><title>有哪些很重要又被忽视的炒菜技巧</title><updated>2023-07-03T08:12:24.976123+00:00</updated><content type="html"><![CDATA[<p>1.肉类焯水要用冷水入锅，热水下锅外面的肉直接熟了，血水锁在里面出不来。</p>
 <p>2.煮鸡蛋要在水还没开的时候下锅，以免蛋白质受到水流冲击变散，包裹空气变成浮沫。</p>
 <p>3.煮挂面要在水里起小气泡的时候下锅，盖上锅盖，水开就往里面点凉水。水再次开的时候，面差不多就熟了。</p>
 <p>4.鲜的手擀面，要在水开的时候下锅，搅动的时候必须往一个方向，避免黏连。火开到最大，小火面条容易糊化。点两次凉水。</p>
@@ -484,9 +485,9 @@ ORDER BY BusinessEntityID
 <p>29.炒方便面的面只能8分熟，不要全熟。水开之后下面，到面饼能打散，立刻捞出来，过凉水。炒方便面的调料加一点豆瓣酱更好吃，也可以用辣椒酱。加生抽老抽蚝油和糖。</p>
 <p>30.汤里面打蛋花，要在锅开了之后，关火打入蛋花。</p>
 <p>31.起锅的时候再加盐和醋，过早加盐，蔬菜里的水分析出来，口感黏软；醋易挥发，先加的话会破坏色泽和口感。</p>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/14" rel="alternate"/><category term="生活"/><published>2023-03-20T01:01:19+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/13</id><title>解决Win10电脑无法登录微软账号的方法</title><updated>2023-07-03T08:10:45.799618+00:00</updated><content type="html"><![CDATA[<p>设置IP地址的dns为：首选DNS 服务器 4.2.2.2   备用DNS 服务器 4.2.2.1
+]]></content><link href="https://github.com/haoz0x139/myblog/issues/14" rel="alternate"/><category term="生活"/><published>2023-03-20T01:01:19+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/13</id><title>解决Win10电脑无法登录微软账号的方法</title><updated>2023-07-03T08:12:25.116944+00:00</updated><content type="html"><![CDATA[<p>设置IP地址的dns为：首选DNS 服务器 4.2.2.2   备用DNS 服务器 4.2.2.1
 <a href="https://zhuanlan.zhihu.com/p/365217700">具体操作步骤参考</a></p>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/13" rel="alternate"/><category term="技术文章"/><published>2023-03-05T03:20:15+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/12</id><title>省市区地址解析</title><updated>2023-07-03T08:10:45.943817+00:00</updated><content type="html"><![CDATA[<pre><code>public string Analysis(string address)
+]]></content><link href="https://github.com/haoz0x139/myblog/issues/13" rel="alternate"/><category term="技术文章"/><published>2023-03-05T03:20:15+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/12</id><title>省市区地址解析</title><updated>2023-07-03T08:12:25.242661+00:00</updated><content type="html"><![CDATA[<pre><code>public string Analysis(string address)
 {  
             string regex = @&quot;(?&lt;province&gt;[^省]+自治区|.*?省)?(?&lt;city&gt;[^市]+自治州|.*?地区|.*?行政单位|.+盟|市辖区|.*?市)?(?&lt;county&gt;[^县]+县|[^区]+区|[^市]+市|.+旗|.+海域|.+岛)?(?&lt;town&gt;[^区]+区|.+镇|.+办事处)?(?&lt;village&gt;.*)&quot;;
             var m = Regex.Match(addr, regex, RegexOptions.IgnoreCase);
@@ -497,7 +498,7 @@ ORDER BY BusinessEntityID
             var village = m.Groups[&quot;village&quot;].Value;//详细地址
 }
 </code></pre>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/12" rel="alternate"/><category term="开发笔记"/><published>2023-02-13T05:05:40+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/10</id><title>git中的SSL证书问题：无法获取本地颁发者证书错误的解决办法</title><updated>2023-07-03T08:10:46.079393+00:00</updated><content type="html"><![CDATA[<p>我们在使用git初始化一个项目时，尤其是通过git submodule update --init --remote初始化子模块时，可能会遇到下面这个错误：
+]]></content><link href="https://github.com/haoz0x139/myblog/issues/12" rel="alternate"/><category term="开发笔记"/><published>2023-02-13T05:05:40+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/10</id><title>git中的SSL证书问题：无法获取本地颁发者证书错误的解决办法</title><updated>2023-07-03T08:12:25.390983+00:00</updated><content type="html"><![CDATA[<p>我们在使用git初始化一个项目时，尤其是通过git submodule update --init --remote初始化子模块时，可能会遇到下面这个错误：
 fatal: unable to access 'https://myserver.com/gogs/user1/myapp/': SSL certificate problem: unable to get local issuer certificate</p>
 <p>这是由于当你通过HTTPS访问Git远程仓库的时候，如果服务器上的SSL证书未经过第三方机构认证，git就会报错。原因是因为未知的没有签署过的证书意味着可能存在很大的风险。解决办法就是通过下面的命令将git中的sslverify关掉：</p>
 <pre><code>git config --global http.sslverify false
@@ -512,7 +513,7 @@ fatal: unable to access 'https://myserver.com/gogs/user1/myapp/': SSL certificat
 <pre><code>npm config set strict-ssl false
 </code></pre>
 <p>对于npm而言，除了可以在package.json的scripts属性中自定义脚本外，npm-scripts也内置了一些脚本，用来在特定的时机执行某些特定的任务，具体可以参照npm的官方文档https://docs.npmjs.com/misc/scripts</p>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/10" rel="alternate"/><category term="技术文章"/><published>2023-02-07T01:13:10+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/9</id><title>Scoop windows下的包管理器</title><updated>2023-07-03T08:10:46.232466+00:00</updated><content type="html"><![CDATA[<h1>Scoop 安装</h1>
+]]></content><link href="https://github.com/haoz0x139/myblog/issues/10" rel="alternate"/><category term="技术文章"/><published>2023-02-07T01:13:10+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/9</id><title>Scoop windows下的包管理器</title><updated>2023-07-03T08:12:25.528840+00:00</updated><content type="html"><![CDATA[<h1>Scoop 安装</h1>
 <h2>环境需求</h2>
 <ul>
 <li>PowerShell 5 +</li>
@@ -605,10 +606,10 @@ scoop update *  #更新所有软件
 scoop list  #列出已安装的软件
 scoop bucket list  #列出已订阅的仓库
 </code></pre>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/9" rel="alternate"/><category term="技术文章"/><published>2023-02-03T08:20:51+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/6</id><title>奇趣网站</title><updated>2023-07-03T08:10:46.379781+00:00</updated><content type="html"><![CDATA[<ul>
+]]></content><link href="https://github.com/haoz0x139/myblog/issues/9" rel="alternate"/><category term="技术文章"/><published>2023-02-03T08:20:51+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/6</id><title>奇趣网站</title><updated>2023-07-03T08:12:25.669890+00:00</updated><content type="html"><![CDATA[<ul>
 <li>收藏有趣的网站</li>
 </ul>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/6" rel="alternate"/><category term="Friends"/><published>2023-02-02T07:53:36+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/4</id><title>张小龙的饭否</title><updated>2023-07-03T08:10:46.528179+00:00</updated><content type="html"><![CDATA[<h2>张小龙的饭否</h2>
+]]></content><link href="https://github.com/haoz0x139/myblog/issues/6" rel="alternate"/><category term="Friends"/><published>2023-02-02T07:53:36+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/4</id><title>张小龙的饭否</title><updated>2023-07-03T08:12:25.793236+00:00</updated><content type="html"><![CDATA[<h2>张小龙的饭否</h2>
 <p>即使不针对人的话，回过头看看十年前的言论也很有意思，有一种时间的错位感，10 年过去，有些变了，有些没变。而这十年，互联网变了好多，也有一些留住的东西。嗯，10 年过去了，墙还在，更高了一点儿。而当时，有趣就有趣在，这些现在看起来的名人不用在平台受舆论监控，一般都是想说什么就说什么，也是唯一我们能看到真实的他们的几年了。</p>
 <h3>一些有意思的</h3>
 <pre><code class="language-yml">
@@ -751,7 +752,7 @@ Jobs是个被艺术化的商人，现在在跟android比销量。http://cnbeta.c
 
 </code></pre>
 <p>记录下: 来自 -- <a href="https://github.com/Allianzcortex/FF-Backup/blob/master/Allenzhang_fanfou_backup">https://github.com/Allianzcortex/FF-Backup/blob/master/Allenzhang_fanfou_backup</a></p>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/4" rel="alternate"/><category term="一些记录"/><published>2023-02-02T07:23:27+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/1</id><title>WeeklyReport 2023</title><updated>2023-07-03T08:10:46.657126+00:00</updated><content type="html"><![CDATA[<blockquote>
+]]></content><link href="https://github.com/haoz0x139/myblog/issues/4" rel="alternate"/><category term="一些记录"/><published>2023-02-02T07:23:27+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/1</id><title>WeeklyReport 2023</title><updated>2023-07-03T08:12:25.934881+00:00</updated><content type="html"><![CDATA[<blockquote>
 <p>人生不是一种享乐，而是一桩十分沉重的工作。</p>
 </blockquote>
 <ul>
