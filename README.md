@@ -14,17 +14,18 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 ## 置顶文章
 - [WeeklyReport 2023](https://github.com/haoz0x139/myblog/issues/1)--2023-02-01
 ## 最近更新
+- [ EF-查询缓存](https://github.com/haoz0x139/myblog/issues/25)--2023-07-23
 - [Ubuntu分区方案](https://github.com/haoz0x139/myblog/issues/24)--2023-07-03
 - [MySQL8绿色版安装简明教程](https://github.com/haoz0x139/myblog/issues/23)--2023-06-13
 - [Win10神州网信政府版安装过程](https://github.com/haoz0x139/myblog/issues/22)--2023-06-04
 - [科目三终于通过了](https://github.com/haoz0x139/myblog/issues/21)--2023-05-14
-- [[笔记]纳瓦尔宝典](https://github.com/haoz0x139/myblog/issues/20)--2023-04-30
 ## 一些记录
 - [[笔记]纳瓦尔宝典](https://github.com/haoz0x139/myblog/issues/20)--2023-04-30
 - [[笔记]皮囊 ](https://github.com/haoz0x139/myblog/issues/19)--2023-04-30
 - [张小龙的饭否](https://github.com/haoz0x139/myblog/issues/4)--2023-02-02
 - [WeeklyReport 2023](https://github.com/haoz0x139/myblog/issues/1)--2023-02-01
 ## 开发笔记
+- [ EF-查询缓存](https://github.com/haoz0x139/myblog/issues/25)--2023-07-23
 - [.Net调用SerialPort类搞定电商包裹称重问题](https://github.com/haoz0x139/myblog/issues/18)--2023-04-30
 - [省市区地址解析](https://github.com/haoz0x139/myblog/issues/12)--2023-02-13
 ## 技术文章
