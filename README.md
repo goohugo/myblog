@@ -12,7 +12,7 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 |  阿里盘搜 | https://www.maoliyun.com/ |  猫狸云,猫狸云搜索 |
 |  github markdown | https://www.cnblogs.com/downey-blog/p/9583748.html |  markdown语法及使用 |
 ## 置顶文章
-- [WeeklyReport 2022](https://github.com/haoz0x139/myblog/issues/1)--2023-02-01
+- [WeeklyReport 2023](https://github.com/haoz0x139/myblog/issues/26)--2023-08-02
 ## 最近更新
 - [WeeklyReport 2023](https://github.com/haoz0x139/myblog/issues/26)--2023-08-02
 - [ EF-查询缓存](https://github.com/haoz0x139/myblog/issues/25)--2023-07-23
