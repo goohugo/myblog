@@ -8,9 +8,11 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 | Postimages | https://postimages.org/ | 免费图片托管 / 图片上传 |
 | w2solo | http://w2solo.com/ | 独立开发者社区 |
 |  e Disk | http://dotnettalk.ysepan.com/ |  永硕E盘 |
-|  小纸条  | https://u.gitcafe.net/ |  阿里云盘资源站 |
+|  小纸条  | https://ali.gitcafe.ink/ |  阿里云盘资源站 |
 |  阿里盘搜 | https://www.maoliyun.com/ |  猫狸云,猫狸云搜索 |
 |  github markdown | https://www.cnblogs.com/downey-blog/p/9583748.html |  markdown语法及使用 |
+## 置顶文章
+- [WeeklyReport 2023](https://github.com/haoz0x139/myblog/issues/26)--2023-08-02
 ## 最近更新
 - [数据库更新表数据，从另一个表中取值](https://github.com/haoz0x139/myblog/issues/29)--2023-10-25
 - [获取 hash](https://github.com/haoz0x139/myblog/issues/28)--2023-08-11
