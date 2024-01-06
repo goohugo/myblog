@@ -14,8 +14,8 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 ## 置顶文章
 - [WeeklyReport 2023](https://github.com/haoz0x139/myblog/issues/26)--2023-08-02
 ## 最近更新
+- [WeeklyReport 2024](https://github.com/haoz0x139/myblog/issues/30)--2024-01-06
 - [数据库更新表数据，从另一个表中取值](https://github.com/haoz0x139/myblog/issues/29)--2023-10-25
 - [获取 hash](https://github.com/haoz0x139/myblog/issues/28)--2023-08-11
 - [Mirror 中文教程](https://github.com/haoz0x139/myblog/issues/27)--2023-08-11
 - [WeeklyReport 2023](https://github.com/haoz0x139/myblog/issues/26)--2023-08-02
-- [ EF-查询缓存](https://github.com/haoz0x139/myblog/issues/25)--2023-07-23
