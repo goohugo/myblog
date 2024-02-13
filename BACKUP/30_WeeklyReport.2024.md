@@ -1,6 +1,9 @@
 # [WeeklyReport 2024](https://github.com/haoz0x139/myblog/issues/30)
 
 > English, code, write, speech, read，这个时代复利最高的五件事。
+
+- **D07**
+    - 新年快乐
 - **D06**
     - 门店  - 年货节活动产品设置
     - 2024 新年快乐
