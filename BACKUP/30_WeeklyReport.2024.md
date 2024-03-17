@@ -1,6 +1,9 @@
 # [WeeklyReport 2024](https://github.com/haoz0x139/myblog/issues/30)
 
 > English, code, write, speech, read，这个时代复利最高的五件事。
+- **D11**
+    - 电商 - 订单查询新增付款标记
+    - 生产 - 生产日报维护代码优化
 - **D10**
     - 生产 - 生产日报维护代码编写
     - 门店 - 3月花漾女神节季活动设置
