@@ -1,6 +1,11 @@
 # [WeeklyReport 2024](https://github.com/haoz0x139/myblog/issues/30)
 
 > English, code, write, speech, read，这个时代复利最高的五件事。
+- **D13**
+    -  生产 - 生产日报维护功能上线运行
+- **D12**
+    -  门店 - 合肥临期商品买一赠一活动设置
+    -  加盟 - 加盟商系统(滨湖中山路店)重新安装
 - **D11**
     - 电商 - 订单查询新增付款标记
     - 生产 - 生产日报维护代码优化
