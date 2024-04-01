@@ -15,8 +15,8 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [我的碎碎念](https://github.com/goohugo/myblog/issues/33)--2024-04-01
 - [WeeklyReport 2024](https://github.com/goohugo/myblog/issues/30)--2024-01-06
 ## 最近更新
+- [Now](https://github.com/goohugo/myblog/issues/34)--2024-04-01
 - [我的碎碎念](https://github.com/goohugo/myblog/issues/33)--2024-04-01
 - [使用存储过程非常慢，但是执行SQL很快的解决方案](https://github.com/goohugo/myblog/issues/32)--2024-02-28
 - [《繁花》爆火，这35句台词炸裂了](https://github.com/goohugo/myblog/issues/31)--2024-01-10
 - [WeeklyReport 2024](https://github.com/goohugo/myblog/issues/30)--2024-01-06
-- [数据库更新表数据，从另一个表中取值](https://github.com/goohugo/myblog/issues/29)--2023-10-25
