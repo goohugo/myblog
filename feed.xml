@@ -1,5 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/haoz0x139/myblog</id><title>RSS feed of haoz0x139's myblog</title><updated>2024-03-27T07:54:10.780435+00:00</updated><author><name>haoz0x139</name><email>haoz0x139@gmail.com</email></author><link href="https://github.com/haoz0x139/myblog"/><link href="https://raw.githubusercontent.com/haoz0x139/myblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/haoz0x139/myblog/issues/32</id><title>使用存储过程非常慢，但是执行SQL很快的解决方案</title><updated>2024-03-27T07:54:11.475307+00:00</updated><content type="html"><![CDATA[<h1>前言</h1>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/goohugo/myblog</id><title>RSS feed of goohugo's myblog</title><updated>2024-04-01T08:09:04.703322+00:00</updated><author><name>goohugo</name><email>haoz0x139@gmail.com</email></author><link href="https://github.com/goohugo/myblog"/><link href="https://raw.githubusercontent.com/goohugo/myblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/goohugo/myblog/issues/33</id><title>我正在做或者想些什么？</title><updated>2024-04-01T08:09:05.438355+00:00</updated><content type="html"><![CDATA[<blockquote>
+<p>更新于 2024/3/16</p>
+</blockquote>
+<ul>
+<li>未来的若干年：这是人类所使用的最落后的星际航行器。
+<img src="https://github.com/goohugo/myblog/assets/124132611/b17cce7d-a643-448e-9e83-a47d5e707f29" alt="SpaceX" /></li>
+</ul>
+]]></content><link href="https://github.com/goohugo/myblog/issues/33"/><category term="Life"/><category term="Top"/><published>2024-04-01T07:52:00+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/32</id><title>使用存储过程非常慢，但是执行SQL很快的解决方案</title><updated>2024-04-01T08:09:05.796745+00:00</updated><content type="html"><![CDATA[<h1>前言</h1>
 <p>最近，在工作中发现，两个问题:</p>
 <ol>
 <li>应用程序调用存储过程很慢，但是在查询分析器中把SQL语句拿出来执行存储过程就很快。</li>
@@ -32,7 +39,7 @@ BEGIN
 END
 </code></pre>
 <p>以上，亲测有效~</p>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/32"/><category term="Technical Articles"/><published>2024-02-28T00:51:07+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/31</id><title>《繁花》爆火，这35句台词炸裂了</title><updated>2024-03-27T07:54:11.789026+00:00</updated><content type="html"><![CDATA[<p>01.大暑之后必要大寒。一定记住，这是规律。</p>
+]]></content><link href="https://github.com/goohugo/myblog/issues/32"/><category term="Technical Articles"/><published>2024-02-28T00:51:07+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/31</id><title>《繁花》爆火，这35句台词炸裂了</title><updated>2024-04-01T08:09:06.135129+00:00</updated><content type="html"><![CDATA[<p>01.大暑之后必要大寒。一定记住，这是规律。</p>
 <p>02.外行看门面，内行看后门。</p>
 <p>03.你以为吃的是龙虾，实际上吃的是机会，一只龙虾就是一个机会。不是在应酬，就是在求人。</p>
 <p>04.凡事，总要留一手。</p>
@@ -67,7 +74,7 @@ END
 <p>33.在老天爷看来，都是必然的。一种选择，一种人生，不是你晓得对跟错，就能够逃得掉的。</p>
 <p>34.人生两个问题，第一，找到问题，第二，把它解决掉。</p>
 <p>35.只有看到未来，才会有未来。</p>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/31"/><published>2024-01-10T10:23:45+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/30</id><title>WeeklyReport 2024</title><updated>2024-03-27T07:54:12.109965+00:00</updated><content type="html"><![CDATA[<blockquote>
+]]></content><link href="https://github.com/goohugo/myblog/issues/31"/><published>2024-01-10T10:23:45+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/30</id><title>WeeklyReport 2024</title><updated>2024-04-01T08:09:06.471555+00:00</updated><content type="html"><![CDATA[<blockquote>
 <p>English, code, write, speech, read，这个时代复利最高的五件事。</p>
 </blockquote>
 <ul>
@@ -151,7 +158,7 @@ END
 </ul>
 </li>
 </ul>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/30"/><category term="Life"/><category term="Top"/><published>2024-01-06T05:49:57+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/29</id><title>数据库更新表数据，从另一个表中取值</title><updated>2024-03-27T07:54:12.429172+00:00</updated><content type="html"><![CDATA[<h2>SQL SERVER</h2>
+]]></content><link href="https://github.com/goohugo/myblog/issues/30"/><category term="Life"/><category term="Top"/><published>2024-01-06T05:49:57+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/29</id><title>数据库更新表数据，从另一个表中取值</title><updated>2024-04-01T08:09:06.800120+00:00</updated><content type="html"><![CDATA[<h2>SQL SERVER</h2>
 <pre><code>UPDATE  A set A.C=B.C 
 from  tableA  as A（别名）,tableB as  B （别名）
 where A.列= B.列
@@ -168,7 +175,7 @@ set  A.C=B.C
 set atest.ORG_CODE=(select ctest.code from C_TEST ctest where atest.id = ctest.id)
 where atest.id in  (select ctest.id FROM TEST ctest);
 </code></pre>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/29"/><category term="Technical Articles"/><published>2023-10-25T07:58:59+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/28</id><title>获取 hash</title><updated>2024-03-27T07:54:12.751901+00:00</updated><content type="html"><![CDATA[<p>Mirror 内部做了一层 GitHub API token 的字符转换，解决不小心把 token 上传到 GitHub 后被删的问题</p>
+]]></content><link href="https://github.com/goohugo/myblog/issues/29"/><category term="Technical Articles"/><published>2023-10-25T07:58:59+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/28</id><title>获取 hash</title><updated>2024-04-01T08:09:07.137663+00:00</updated><content type="html"><![CDATA[<p>Mirror 内部做了一层 GitHub API token 的字符转换，解决不小心把 token 上传到 GitHub 后被删的问题</p>
 <p>下面是获取 <code>hash</code> 的步骤</p>
 <ol>
 <li>获取 <a href="https://github.com/LoeiFy/Mirror/wiki/Token-%E8%AE%BE%E7%BD%AE">token</a></li>
@@ -178,7 +185,7 @@ where atest.id in  (select ctest.id FROM TEST ctest);
 </ol>
 <p><img src="https://user-images.githubusercontent.com/2193211/54478294-7689cc00-484b-11e9-9f45-8157cf92d180.png" alt="example" /></p>
 <p>得到的字符就是 <code>hash</code> 串</p>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/28"/><category term="Technical Articles"/><published>2023-08-11T01:54:02+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/27</id><title>Mirror 中文教程</title><updated>2024-03-27T07:54:13.079951+00:00</updated><content type="html"><![CDATA[<ol>
+]]></content><link href="https://github.com/goohugo/myblog/issues/28"/><category term="Technical Articles"/><published>2023-08-11T01:54:02+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/27</id><title>Mirror 中文教程</title><updated>2024-04-01T08:09:07.470803+00:00</updated><content type="html"><![CDATA[<ol>
 <li>
 <p>下载 <code>Mirror</code> 的最新版本 <a href="https://github.com/LoeiFy/Mirror/raw/master/release/mirror.zip">地址</a></p>
 </li>
@@ -209,7 +216,7 @@ window.config = {
 ...
 </code></pre>
 <p>保存 <code>index.html</code>， 然后将所有文件 push 到 <code>gh-pages</code> 分支或者 <code>master</code> 分支的 <code>docs</code> 目录</p>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/27"/><category term="Technical Articles"/><published>2023-08-11T01:51:16+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/26</id><title>WeeklyReport 2023</title><updated>2024-03-27T07:54:13.405362+00:00</updated><content type="html"><![CDATA[<blockquote>
+]]></content><link href="https://github.com/goohugo/myblog/issues/27"/><category term="Technical Articles"/><published>2023-08-11T01:51:16+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/26</id><title>WeeklyReport 2023</title><updated>2024-04-01T08:09:07.835683+00:00</updated><content type="html"><![CDATA[<blockquote>
 <p>English, code, write, speech, read，这个时代复利最高的五件事。</p>
 </blockquote>
 <ul>
@@ -599,7 +606,7 @@ window.config = {
 </ul>
 </li>
 </ul>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/26"/><category term="Life"/><published>2023-08-02T05:57:13+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/25</id><title> EF-查询缓存</title><updated>2024-03-27T07:54:13.719053+00:00</updated><content type="html"><![CDATA[<p>同一个DbContext实例，EF会对查询过的数据进行缓存。对DbContext的生存期的管理需根据当前的应用来处理（如web、win），尽量不要采用全局的DbContext。也可在查询中采用AsNoTracking避免从缓存中取数据。</p>
+]]></content><link href="https://github.com/goohugo/myblog/issues/26"/><category term="Life"/><published>2023-08-02T05:57:13+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/25</id><title> EF-查询缓存</title><updated>2024-04-01T08:09:08.167182+00:00</updated><content type="html"><![CDATA[<p>同一个DbContext实例，EF会对查询过的数据进行缓存。对DbContext的生存期的管理需根据当前的应用来处理（如web、win），尽量不要采用全局的DbContext。也可在查询中采用AsNoTracking避免从缓存中取数据。</p>
 <p>1、问题</p>
 <p>构建一个全局的或某个业务场景内唯一的DbContext</p>
 <pre><code>public OTBll()
@@ -660,7 +667,7 @@ public static VpoEntities GetCurrentDemoContext()
 }
 </code></pre>
 <p><a href="https://www.cnblogs.com/hepc/p/10253414.html">原文地址</a></p>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/25"/><category term="Development"/><published>2023-07-23T08:16:26+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/24</id><title>Ubuntu分区方案</title><updated>2024-03-27T07:54:14.039814+00:00</updated><content type="html"><![CDATA[<h1>Ubuntu分区方案</h1>
+]]></content><link href="https://github.com/goohugo/myblog/issues/25"/><category term="Development"/><published>2023-07-23T08:16:26+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/24</id><title>Ubuntu分区方案</title><updated>2024-04-01T08:09:08.550055+00:00</updated><content type="html"><![CDATA[<h1>Ubuntu分区方案</h1>
 <p><a href="https://www.cnblogs.com/raina/p/11129375.html">原文地址</a></p>
 <ul>
 <li>swap: 4G(跟你自己内存一样大)；主分区；空间起始位置；用于交换空间</li>
@@ -681,7 +688,7 @@ public static VpoEntities GetCurrentDemoContext()
 </ul>
 <p>已经使用 Ubuntu 快一年了，贴一张各分区使用情况图：</p>
 <p><img src="https://github.com/haoz0x139/myblog/assets/124132611/bdf837bd-f326-4af7-a4a2-0e3a957ee0bc" alt="image" /></p>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/24"/><category term="Technical Articles"/><published>2023-07-03T08:10:11+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/23</id><title>MySQL8绿色版安装简明教程</title><updated>2024-03-27T07:54:14.366388+00:00</updated><content type="html"><![CDATA[<h1>背景</h1>
+]]></content><link href="https://github.com/goohugo/myblog/issues/24"/><category term="Technical Articles"/><published>2023-07-03T08:10:11+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/23</id><title>MySQL8绿色版安装简明教程</title><updated>2024-04-01T08:09:08.887729+00:00</updated><content type="html"><![CDATA[<h1>背景</h1>
 <ul>
 <li>开发安装MySQL8版本，但是直接使用安装包安装，无法设置安装路径，mysql会直接安装到系统盘。不喜欢这样，所以选择MySQL8绿色版安装</li>
 </ul>
@@ -789,7 +796,7 @@ default-character-set=utf8mb4
 </ul>
 </li>
 </ul>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/23"/><category term="Technical Articles"/><published>2023-06-13T00:19:10+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/22</id><title>Win10神州网信政府版安装过程</title><updated>2024-03-27T07:54:14.693372+00:00</updated><content type="html"><![CDATA[<blockquote>
+]]></content><link href="https://github.com/goohugo/myblog/issues/23"/><category term="Technical Articles"/><published>2023-06-13T00:19:10+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/22</id><title>Win10神州网信政府版安装过程</title><updated>2024-04-01T08:09:09.233236+00:00</updated><content type="html"><![CDATA[<blockquote>
 <p>Win10神州网信政府版（企业版G）下载地址
 64位（也只有64位的版本）
 ed2k://|file|CMGE_V2020-L.1207.iso|4736782336|8F2FC33635D79963CBB0A43C4A916200|/</p>
@@ -815,7 +822,7 @@ slmgr /skms kms.03k.org
 slmgr /ato
 </code></pre>
 <p>Enjoy it</p>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/22"/><category term="Technical Articles"/><published>2023-06-04T07:24:35+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/21</id><title>科目三终于通过了</title><updated>2024-03-27T07:54:15.015151+00:00</updated><content type="html"><![CDATA[<blockquote>
+]]></content><link href="https://github.com/goohugo/myblog/issues/22"/><category term="Technical Articles"/><published>2023-06-04T07:24:35+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/21</id><title>科目三终于通过了</title><updated>2024-04-01T08:09:09.566651+00:00</updated><content type="html"><![CDATA[<blockquote>
 <p>2023年5月11日终于通过了科目三考试，总结下这次可以一把通过考试的原因。</p>
 </blockquote>
 <ul>
@@ -829,7 +836,7 @@ slmgr /ato
 <li>在最后靠边停车，没有正确理解考官的意图，慌乱中，考官一脚刹车，拉起手刹，回空档，熄火，让我赶紧下车。我还以为自己挂了，但又感觉哪里不对，当我听到考试合格的指令后，才反应过来，原来自己通过了考试。</li>
 <li>感谢教练，没教练安排，可能不会把我排在后面一个上车，感谢考官，没有那一脚刹车，估计我也会像上一位一样，考第二遍，心态肯定要崩，也不会通过考试了。</li>
 </ul>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/21"/><category term="Life"/><published>2023-05-14T09:00:22+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/20</id><title>[笔记]纳瓦尔宝典</title><updated>2024-03-27T07:54:15.333112+00:00</updated><content type="html"><![CDATA[<h1>纳瓦尔宝典</h1>
+]]></content><link href="https://github.com/goohugo/myblog/issues/21"/><category term="Life"/><published>2023-05-14T09:00:22+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/20</id><title>[笔记]纳瓦尔宝典</title><updated>2024-04-01T08:09:09.901546+00:00</updated><content type="html"><![CDATA[<h1>纳瓦尔宝典</h1>
 <blockquote>
 <p>作者：埃里克·乔根森；数量：19个笔记；时间：2023-03-1811:23:07</p>
 </blockquote>
@@ -952,7 +959,7 @@ slmgr /ato
 </ul>
 </li>
 </ul>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/20"/><category term="Life"/><published>2023-04-30T07:36:23+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/19</id><title>[笔记]皮囊 </title><updated>2024-03-27T07:54:15.655591+00:00</updated><content type="html"><![CDATA[<h1>皮囊</h1>
+]]></content><link href="https://github.com/goohugo/myblog/issues/20"/><category term="Life"/><published>2023-04-30T07:36:23+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/19</id><title>[笔记]皮囊 </title><updated>2024-04-01T08:09:10.232810+00:00</updated><content type="html"><![CDATA[<h1>皮囊</h1>
 <blockquote>
 <p>作者：蔡崇达；数量：6个笔记；时间：2023-04-20 11:23:07</p>
 </blockquote>
@@ -986,7 +993,7 @@ slmgr /ato
 <ul>
 <li>在我生活的这个小镇，所有人都笃信举头三尺有神明，也相信有魂灵，人与鬼神亲近地生活着。我们还相信，魂灵有着和现世一样的属性，会饿到，也会吃太饱，会太胖，然后也会心情不好也会闷出病……</li>
 </ul>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/19"/><category term="Life"/><published>2023-04-30T07:22:29+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/18</id><title>运用.NET框架下的SerialPort类，解决电商包裹称重问题</title><updated>2024-03-27T07:54:15.965539+00:00</updated><content type="html"><![CDATA[<p>当前，几乎所有的电商综合管理系统已将包裹称重环节纳入核心流程，尤其在食品电商领域，其系统内集成的包裹称重功能模块扮演着关键角色，有效防止因包裹重量信息误差而导致的发货差错，并能迅速识别异常包裹，有力地减少了包裹误发的现象。</p>
+]]></content><link href="https://github.com/goohugo/myblog/issues/19"/><category term="Life"/><published>2023-04-30T07:22:29+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/18</id><title>运用.NET框架下的SerialPort类，解决电商包裹称重问题</title><updated>2024-04-01T08:09:10.573214+00:00</updated><content type="html"><![CDATA[<p>当前，几乎所有的电商综合管理系统已将包裹称重环节纳入核心流程，尤其在食品电商领域，其系统内集成的包裹称重功能模块扮演着关键角色，有效防止因包裹重量信息误差而导致的发货差错，并能迅速识别异常包裹，有力地减少了包裹误发的现象。</p>
 <p>在食品电商应用的ERP系统中，包裹称重步骤通常嵌入在订单履行流程之中。鉴于顾客下单的商品种类多样、规格各异，采用精确的电子秤进行逐一称重，确保每个商品的实际净重无误，从而杜绝了拣货失误的问题。倘若包裹称重环节设计欠佳，则可能导致一系列错发、漏发事件，进而对整体售后服务品质造成负面影响。</p>
 <p>在构建包裹称重体系时，每一个商品均需经过严格的重量测定，商品属性应明确包含净重和总重两项指标。其中，净重是指单一商品本身的标准重量，例如一款40克装的巴西松子其净重为0.04千克；而总重则涵盖了商品及其外包装材料的整体重量，一般情况下会略高于净重。此外，包裹所用的纸箱同样需要逐一称重并记录在案，不同的纸箱规格及其对应重量应在系统产品数据库中预先设定。</p>
 <p>包裹重量核验阶段，系统自动执行计算公式：包裹总重 = 纸箱重量 + 商品重量，并要求实际称重数值落在允许的合理偏差范围内。考虑到部分散装商品可能会因自然溢出等因素稍有超出标定重量，这个误差范围通常会被设计得具有一定包容性。</p>
@@ -1058,7 +1065,7 @@ slmgr /ato
             }            
 }
 </code></pre>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/18"/><category term="Development"/><published>2023-04-30T06:45:32+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/17</id><title>Github访问速度慢的解决方案</title><updated>2024-03-27T07:54:16.279893+00:00</updated><content type="html"><![CDATA[<p>作为国内的用户，我相信绝大多数的家人们都遇到过一个问题，那就是访问github的时候非常非常慢。甚至有的时候访问网站页面直接死掉。这个时候该有人说了，我有梯子我不怕，上网速度嗖嗖的。</p>
+]]></content><link href="https://github.com/goohugo/myblog/issues/18"/><category term="Development"/><published>2023-04-30T06:45:32+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/17</id><title>Github访问速度慢的解决方案</title><updated>2024-04-01T08:09:11.002522+00:00</updated><content type="html"><![CDATA[<p>作为国内的用户，我相信绝大多数的家人们都遇到过一个问题，那就是访问github的时候非常非常慢。甚至有的时候访问网站页面直接死掉。这个时候该有人说了，我有梯子我不怕，上网速度嗖嗖的。</p>
 <p>但是如果我们不使用梯子的情况下该怎么办呢？毕竟使用github也是我们的日常。</p>
 <h1>Github打开慢的原因：</h1>
 <pre><code>  GitHub的CDN(Content Delivery Network,即内容分发网络)域名遭到DNS污染，无法连接使用GitHub的加速分发服务器，
@@ -1102,7 +1109,7 @@ https://toolwa.com/github/ （GitHub 加速下载）
 </code></pre>
 <p>也就是说上面的镜像就是一个克隆版的 GitHub，你可以访问上面的镜像网站，网站的内容跟 GitHub 是完整同步的镜像，然后在这个网站里面进行下载克隆等操作。</p>
 <p>注意是否已失效，当然也可搜索其他的镜像网址或加速网站。</p>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/17"/><category term="Technical Articles"/><published>2023-04-30T04:48:33+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/16</id><title>SQL2012的新分页方法</title><updated>2024-03-27T07:54:16.601206+00:00</updated><content type="html"><![CDATA[<pre><code>DECLARE @PageNumber INT = 6
+]]></content><link href="https://github.com/goohugo/myblog/issues/17"/><category term="Technical Articles"/><published>2023-04-30T04:48:33+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/16</id><title>SQL2012的新分页方法</title><updated>2024-04-01T08:09:11.335092+00:00</updated><content type="html"><![CDATA[<pre><code>DECLARE @PageNumber INT = 6
 DECLARE @RowsCountPerPage INT = 10
 
 SELECT  BusinessEntityID ,
@@ -1114,7 +1121,7 @@ ORDER BY BusinessEntityID
  FETCH NEXT @RowsCountPerPage ROWS ONLY
 
 </code></pre>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/16"/><category term="Technical Articles"/><published>2023-04-29T09:19:51+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/14</id><title>有哪些很重要又被忽视的炒菜技巧</title><updated>2024-03-27T07:54:16.920009+00:00</updated><content type="html"><![CDATA[<p>1.肉类焯水要用冷水入锅，热水下锅外面的肉直接熟了，血水锁在里面出不来。</p>
+]]></content><link href="https://github.com/goohugo/myblog/issues/16"/><category term="Technical Articles"/><published>2023-04-29T09:19:51+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/14</id><title>有哪些很重要又被忽视的炒菜技巧</title><updated>2024-04-01T08:09:11.701924+00:00</updated><content type="html"><![CDATA[<p>1.肉类焯水要用冷水入锅，热水下锅外面的肉直接熟了，血水锁在里面出不来。</p>
 <p>2.煮鸡蛋要在水还没开的时候下锅，以免蛋白质受到水流冲击变散，包裹空气变成浮沫。</p>
 <p>3.煮挂面要在水里起小气泡的时候下锅，盖上锅盖，水开就往里面点凉水。水再次开的时候，面差不多就熟了。</p>
 <p>4.鲜的手擀面，要在水开的时候下锅，搅动的时候必须往一个方向，避免黏连。火开到最大，小火面条容易糊化。点两次凉水。</p>
@@ -1145,9 +1152,9 @@ ORDER BY BusinessEntityID
 <p>29.炒方便面的面只能8分熟，不要全熟。水开之后下面，到面饼能打散，立刻捞出来，过凉水。炒方便面的调料加一点豆瓣酱更好吃，也可以用辣椒酱。加生抽老抽蚝油和糖。</p>
 <p>30.汤里面打蛋花，要在锅开了之后，关火打入蛋花。</p>
 <p>31.起锅的时候再加盐和醋，过早加盐，蔬菜里的水分析出来，口感黏软；醋易挥发，先加的话会破坏色泽和口感。</p>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/14"/><category term="Life"/><published>2023-03-20T01:01:19+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/13</id><title>解决Win10电脑无法登录微软账号的方法</title><updated>2024-03-27T07:54:17.250810+00:00</updated><content type="html"><![CDATA[<p>设置IP地址的dns为：首选DNS 服务器 4.2.2.2   备用DNS 服务器 4.2.2.1
+]]></content><link href="https://github.com/goohugo/myblog/issues/14"/><category term="Life"/><published>2023-03-20T01:01:19+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/13</id><title>解决Win10电脑无法登录微软账号的方法</title><updated>2024-04-01T08:09:12.064029+00:00</updated><content type="html"><![CDATA[<p>设置IP地址的dns为：首选DNS 服务器 4.2.2.2   备用DNS 服务器 4.2.2.1
 <a href="https://zhuanlan.zhihu.com/p/365217700">具体操作步骤参考</a></p>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/13"/><category term="Technical Articles"/><published>2023-03-05T03:20:15+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/12</id><title>省市区地址解析</title><updated>2024-03-27T07:54:17.576643+00:00</updated><content type="html"><![CDATA[<pre><code>public string Analysis(string address)
+]]></content><link href="https://github.com/goohugo/myblog/issues/13"/><category term="Technical Articles"/><published>2023-03-05T03:20:15+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/12</id><title>省市区地址解析</title><updated>2024-04-01T08:09:12.417072+00:00</updated><content type="html"><![CDATA[<pre><code>public string Analysis(string address)
 {  
             string regex = @&quot;(?&lt;province&gt;[^省]+自治区|.*?省)?(?&lt;city&gt;[^市]+自治州|.*?地区|.*?行政单位|.+盟|市辖区|.*?市)?(?&lt;county&gt;[^县]+县|[^区]+区|[^市]+市|.+旗|.+海域|.+岛)?(?&lt;town&gt;[^区]+区|.+镇|.+办事处)?(?&lt;village&gt;.*)&quot;;
             var m = Regex.Match(addr, regex, RegexOptions.IgnoreCase);
@@ -1158,7 +1165,7 @@ ORDER BY BusinessEntityID
             var village = m.Groups[&quot;village&quot;].Value;//详细地址
 }
 </code></pre>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/12"/><category term="Development"/><published>2023-02-13T05:05:40+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/10</id><title>git中的SSL证书问题：无法获取本地颁发者证书错误的解决办法</title><updated>2024-03-27T07:54:17.898620+00:00</updated><content type="html"><![CDATA[<p>我们在使用git初始化一个项目时，尤其是通过git submodule update --init --remote初始化子模块时，可能会遇到下面这个错误：
+]]></content><link href="https://github.com/goohugo/myblog/issues/12"/><category term="Development"/><published>2023-02-13T05:05:40+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/10</id><title>git中的SSL证书问题：无法获取本地颁发者证书错误的解决办法</title><updated>2024-04-01T08:09:12.754484+00:00</updated><content type="html"><![CDATA[<p>我们在使用git初始化一个项目时，尤其是通过git submodule update --init --remote初始化子模块时，可能会遇到下面这个错误：
 fatal: unable to access 'https://myserver.com/gogs/user1/myapp/': SSL certificate problem: unable to get local issuer certificate</p>
 <p>这是由于当你通过HTTPS访问Git远程仓库的时候，如果服务器上的SSL证书未经过第三方机构认证，git就会报错。原因是因为未知的没有签署过的证书意味着可能存在很大的风险。解决办法就是通过下面的命令将git中的sslverify关掉：</p>
 <pre><code>git config --global http.sslverify false
@@ -1173,7 +1180,7 @@ fatal: unable to access 'https://myserver.com/gogs/user1/myapp/': SSL certificat
 <pre><code>npm config set strict-ssl false
 </code></pre>
 <p>对于npm而言，除了可以在package.json的scripts属性中自定义脚本外，npm-scripts也内置了一些脚本，用来在特定的时机执行某些特定的任务，具体可以参照npm的官方文档https://docs.npmjs.com/misc/scripts</p>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/10"/><category term="Technical Articles"/><published>2023-02-07T01:13:10+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/9</id><title>Scoop windows下的包管理器</title><updated>2024-03-27T07:54:18.221429+00:00</updated><content type="html"><![CDATA[<h1>Scoop 安装</h1>
+]]></content><link href="https://github.com/goohugo/myblog/issues/10"/><category term="Technical Articles"/><published>2023-02-07T01:13:10+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/9</id><title>Scoop windows下的包管理器</title><updated>2024-04-01T08:09:13.102999+00:00</updated><content type="html"><![CDATA[<h1>Scoop 安装</h1>
 <h2>环境需求</h2>
 <ul>
 <li>PowerShell 5 +</li>
@@ -1266,153 +1273,10 @@ scoop update *  #更新所有软件
 scoop list  #列出已安装的软件
 scoop bucket list  #列出已订阅的仓库
 </code></pre>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/9"/><category term="Technical Articles"/><published>2023-02-03T08:20:51+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/6</id><title>奇趣网站</title><updated>2024-03-27T07:54:18.536201+00:00</updated><content type="html"><![CDATA[<ul>
+]]></content><link href="https://github.com/goohugo/myblog/issues/9"/><category term="Technical Articles"/><published>2023-02-03T08:20:51+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/6</id><title>奇趣网站</title><updated>2024-04-01T08:09:13.441336+00:00</updated><content type="html"><![CDATA[<ul>
 <li>收藏有趣的网站</li>
 </ul>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/6"/><category term="Friends"/><published>2023-02-02T07:53:36+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/4</id><title>张小龙的饭否</title><updated>2024-03-27T07:54:18.914202+00:00</updated><content type="html"><![CDATA[<h2>张小龙的饭否</h2>
-<p>即使不针对人的话，回过头看看十年前的言论也很有意思，有一种时间的错位感，10 年过去，有些变了，有些没变。而这十年，互联网变了好多，也有一些留住的东西。嗯，10 年过去了，墙还在，更高了一点儿。而当时，有趣就有趣在，这些现在看起来的名人不用在平台受舆论监控，一般都是想说什么就说什么，也是唯一我们能看到真实的他们的几年了。</p>
-<h3>一些有意思的</h3>
-<pre><code class="language-yml">
-新账号上路！ 2010-11-26 13:59  # 第一条饭否
-
-中国人比美国人有精力的体现是，中国人每天要看好几份国内的微博，还要出墙去留意美国的推特。 2010-11-26 17:36
-
-一个产品，要加多少的功能，才能成为一个垃圾产品啊！ 2010-11-27 23:24
-
-产品往往是做着做着，就主旋律了，因为跟着用户走，用户爱听主旋律的歌。 2010-11-29 00:04
-
-自从有了微博，我看书就少了。自我检讨。 2010-11-29 23:47
-
-微博还真是个把事情越搞越复杂的地方，尤其是女人多的时候。 2010-12-01 01:59
-
-微博也是个很危险的地方，因为你说一句话，每个人都有不同的理解。只怕有心人啊。 2010-12-01 02:02
-
-平均每天收到一张iTunes Store的帐单。我要在apple上疯狂消费，来赎回以前在windows上狂用盗版的罪。 2010-12-12 14:01
-
-不是所有东西，都需要2.0的。 2010-12-22 16:47
-
-人无近忧，必有远虑。人有远虑，必有焦虑。 2010-12-27 22:58
-
-手机是人的最重要的人工器官。 2011-01-02 15:33
-
-转@憨豆主席 新闻联播证明了物理学上的一个重大课题——平行空间是真的存在的。 2011-01-07 18:23
-
-智能手机市场曾经被加拿大和芬兰人占领。当这个市场终于迎来大爆发的时候，苹果， Google 和 MS 恰到好处的把他夺了回来。看来，没有核心竞争力保障的产权并不靠谱。
- 
-
-我在微博上说android的体验没有ip4好，很多人跟我急。我猜想，这大概和爱国的心理是类似的。我用的物品，如果被否定，那就否定了我的人格了。我出生的国家也是一样。这些人的人格退化为物格国格了。否则，我说android不好，他生什么气呢？ 2011-05-15 22:35 
-
-一天看到三个不同的事情的描述，都是“内幕很可怕”。 2012-04-09 19:33  # 最后一条
-</code></pre>
-<h3>跨越 10 年的相同与不同</h3>
-<pre><code class="language-yml">
-一阵寒风袭后背啊。转@泡芙先生 2010年，中国社会科学院在京发布的《中国新媒体发展报告（2010）》指出，社交网站的病毒式营销手段、泄露个人隐私以及政治、军事、商业机密信息等问题也引发质疑，Facebook等社交网站被西方国家情报机构所利用，其特殊的政治功能则让人心生恐惧。 2010-12-27 23:57
-
-钟南山说，空气污染对肺的伤害远远超过吸烟了。搞得我都不好意思戒烟了。转@阳光不锈钢 RT @elaoda 中国疾病专家最近表示，中国空气污染与呼吸疾病的联系越来越紧密，广州、北京、上海等许多大城市都面临肺癌率明显上升的趋势，肺癌已经取代肝癌成为中国癌症死亡的第一杀手。 2010-12-29 17:09 
-
-windows的糟糕的字体表现让中国人的UI审美水准滞后了10年。 2010-12-30 03:29
-
-在鄙视了windows mobile多年之后，开始为windows phone7叫了一声好。微软这次能在iPhone之外找到了完全不同的另外一种交互模式，还是很牛逼闪闪的！ 2010-12-30 15:32
-
-quora让我感叹的是，人家的知识底子确实必我们厚太多了。 2010-12-31 01:36
-
-现代通讯工具的要义是：我发出消息，你看，或者不看，都与我无关。人们在IM上花费的时间将越来越少。 2011-01-01 14:33
-
-手机上需要实时聊天吗？谁有耐心用手机输入来聊天呢？ 2011-01-02 15:14
-
-胶卷，唱片，卡带，甚至固定电话，这些老物品在消逝，连同它们所代表的生活方式一道。 2011-01-04 18:51
-
-为什么Kindle，iTouch在国内销量如此的小？iTouch在美国的销量和iPhone持平。 2011-01-10 13:12
-
-互联网让80后90后产生了更严重的两级分化。 2011-01-10 15:07 # 00 后更不同了
-
-中国互联网的落后在于硬件的落后，别人都普及了iphone的时候我们还在面对最大量的S60用户。 2011-01-16 03:11
-
-千元android机应该今年会比较普及吧。转@bjshadow 大学校园基本都是诺基亚。其实我也感觉诺基亚如果仅用于上网电话与短信，用着还是不错的。 2011-01-16 03:17
-
-体验不好的电子产品，都会罗列一堆硬件参数来吸引买家。当然，买家也认这个，虽然他并不知道1千万像素到底有什么最终的效果。 2011-01-18 17:17 # 草草草
-
-腾讯微博注册量过亿。腾讯最不缺的就是注册量了。 2011-02-05 22:18
-
-会有另外一个Steve让Nokia起死回生吗？让一个庞然大物起死回生，比从零建立一个王国还困难。 2011-02-11 01:03
-
-知乎像个专业论坛。 2011-02-15 23:31
-
-新浪微博的手机访问量是否超过web？手机写微博的量呢？ 2011-02-24 16:39
-
-从三分钟的体验来看，点点从形式上来说，比饭否和Instagram（拍拍）都复杂，不够优美，因此应该发展不过饭否和拍拍。但愿我是错的。 2011-02-25 00:05
-
-互联时代了，基于ip的短信，语音，视频，还被人为限制。所以技术最大的敌人是人。 2011-02-26 22:16
-
-如果扎克伯格在中国，他连在战略发展部旁听的资格都没有。 2011-03-07 17:08
-
-instagram也要被做烂了。 2011-03-15 14:59
-
-甲骨文的CEO对他的员工说，你们都是傻逼，所以甲骨文招揽了很多优秀员工。苹果的CEO对用户说，你们都是傻逼，所以苹果招揽了许多优秀用户。阿里巴巴的CEO对投资者说，你们都是傻逼，所以阿里巴巴招揽了许多股东。 2011-07-19 23:18
-
-知乎上人越来越多，回答也就越来越不靠谱了。话说回来，人少的时候也不靠谱。这该怎么办呢，还是要颁证。 2011-10-11 04:27
-
-talkbox在hk干不过whatsapp，可见那是个神奇的地方 2011-10-15 06:33
-
-中国的教育是扼杀好奇心的完美历程。 2011-11-03 01:23
-
-牛排的电池容量很大，如何让它可以给iphone充电？ 2012-03-25 22:24
-
-</code></pre>
-<h3>竞品相关</h3>
-<pre><code class="language-yml">
-盛大出了一个叫“Kiki”的软件。我只能说，好歹，不要在名字上也这么山寨吧！取个名字有那么难么？ 2010-12-30 15:53
-
-当我在嘲笑盛大kiki的时候，其实我比它也好不了多少。 2010-12-30 16:58
-
-当whatsapp，kik，米聊，速聊，kiki都狂推实时聊天概念时，老夫决定反其道而行。 2011-01-02 15:18
-
-你问我们和竞争对手比有什么区别，我说我们没有他们那些臃肿艳俗的部分。 2011-01-02 15:20
-
-短信的好处在于它是默认隐身的。 2011-01-02 15:31
-
-这么多天过去了，米聊竟然才3千个用户。 2011-01-03 18:58
-
-你为什么不用米聊？ 2011-01-07 16:40
-
-将whatsapp，kik，miliao打下来，也算是个小小的刺激吧。 2011-01-10 01:19
-
-whatsapp kik，pingchat的兴起，将S，R，D这些术语灌输给用户，国内的后来者竟然也这样带入了。 2011-01-11 18:32 
-
-米聊竟然也做了好友动态，竟然尝试了我一直在想的东西。 2011-01-16 02:46
-
-从众多的kik模仿犯来看，国内基本没有从用户心理考虑产品的产品经理。除了模仿，他们的创新也是意淫。 2011-01-17 17:42
-
-做kik什么的都没意思，拟一个RFC协议，将kik，whatsapp，米聊什么的都互通起来，才算正经事。 2011-01-18 01:55
-
-这么多年了，我还在做通讯工具，这让我相信一个宿命，每一个不善沟通的孩子都有强大的帮助别人沟通的内在力量。 2011-01-23 01:54
-
-雷军还在用八一精神来工作，我比较难理解。http://is.gd/yEe5Rp 2011-02-07 02:12
-
-talkbox突然大热，大量vc急杀过去。须小心大热倒灶。 2011-04-14 02:11
-
-每次看到知乎上人在讨论为什么启动画面是一个人顶个球，我就很乐。 2011-09-20 18:08
-
-米聊hold不住了，做了lbs。新浪hold不住了，做了对讲。飞聊翼聊一看就是外包的。 2011-09-29 15:55
-
-line突然大火，可见萌很重要。 2011-10-15 06:29
-
-微聊从概念上来说就偏了。 2011-10-25 03:56
-
-</code></pre>
-<h3>乔布斯</h3>
-<pre><code class="language-yml">
-因为Steve Jobs生病，苹果股价下跌8％，损失百亿美元。由此可知，Jobs生的是全世界最昂贵的一种病，目前只有Jobs一人患此病。 2011-01-18 00:19
-
-Jobs是个被艺术化的商人，现在在跟android比销量。http://cnbeta.com/articles/... 2011-01-18 12:52 
-
- 不谈Jobs，我们还能谈什么呢？ 2011-10-09 22:14
-
- “假设把乔布斯从30年的历史中抽掉，我们今天的世界未必会变得更糟糕，或者更美好，但可以肯定的是，如果没有乔布斯，硅谷一定会比较无趣，我们的世界也会比较无趣。” 2011-10-24 00:52
-
-</code></pre>
-<p>记录下: 来自 -- <a href="https://github.com/Allianzcortex/FF-Backup/blob/master/Allenzhang_fanfou_backup">https://github.com/Allianzcortex/FF-Backup/blob/master/Allenzhang_fanfou_backup</a></p>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/4"/><category term="Life"/><published>2023-02-02T07:23:27+00:00</published></entry><entry><id>https://github.com/haoz0x139/myblog/issues/1</id><title>WeeklyReport 2022</title><updated>2024-03-27T07:54:19.231525+00:00</updated><content type="html"><![CDATA[<blockquote>
+]]></content><link href="https://github.com/goohugo/myblog/issues/6"/><category term="Friends"/><published>2023-02-02T07:53:36+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/1</id><title>WeeklyReport 2022</title><updated>2024-04-01T08:09:13.813748+00:00</updated><content type="html"><![CDATA[<blockquote>
 <p>人生不是一种享乐，而是一桩十分沉重的工作。</p>
 </blockquote>
 <ul>
@@ -1494,4 +1358,4 @@ Jobs是个被艺术化的商人，现在在跟android比销量。http://cnbeta.c
 </ul>
 </li>
 </ul>
-]]></content><link href="https://github.com/haoz0x139/myblog/issues/1"/><category term="Life"/><published>2023-02-01T07:49:29+00:00</published></entry></feed>
+]]></content><link href="https://github.com/goohugo/myblog/issues/1"/><category term="Life"/><published>2023-02-01T07:49:29+00:00</published></entry></feed>
