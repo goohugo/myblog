@@ -1,6 +1,9 @@
 # [WeeklyReport 2024](https://github.com/goohugo/myblog/issues/30)
 
 > English, code, write, speech, read，这个时代复利最高的五件事。
+- **D15**
+    -  电商 - 按订单编号查询产品明细并标记付款
+    -  生产 - 产品合格证打印功能
 - **D14**
     -  生产 - 生产入库新增日报登记入口，方便快捷登记
 - **D13**
