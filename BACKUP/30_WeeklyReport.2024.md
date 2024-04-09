@@ -1,6 +1,8 @@
-# [WeeklyReport 2024](https://github.com/haoz0x139/myblog/issues/30)
+# [WeeklyReport 2024](https://github.com/goohugo/myblog/issues/30)
 
 > English, code, write, speech, read，这个时代复利最高的五件事。
+- **D14**
+    -  生产 - 生产入库新增日报登记入口，方便快捷登记
 - **D13**
     -  生产 - 生产日报维护功能上线运行
 - **D12**
