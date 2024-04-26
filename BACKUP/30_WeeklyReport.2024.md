@@ -1,6 +1,12 @@
 # [WeeklyReport 2024](https://github.com/goohugo/myblog/issues/30)
 
 > English, code, write, speech, read，这个时代复利最高的五件事。
+- **D17**
+    - 门店 - 心意卡手机兑换系统优化(代码框架搭建)
+    - 生产 - 下车间处理退换货
+- **D16**
+    - 生产 - 生产入库产品标签功能设计
+    - 生产 - 定制产品Bom清单设置
 - **D15**
     -  电商 - 按订单编号查询产品明细并标记付款
     -  生产 - 产品营养标签打印功能设计
