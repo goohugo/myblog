@@ -1,6 +1,9 @@
 # [WeeklyReport 2024](https://github.com/goohugo/myblog/issues/30)
 
 > English, code, write, speech, read，这个时代复利最高的五件事。
+- **D18**
+    - 门店 - 五一劳动节直营门店活动设置
+    - 五一假期快乐
 - **D17**
     - 门店 - 心意卡手机兑换系统优化(代码框架搭建)
     - 生产 - 下车间处理退换货
