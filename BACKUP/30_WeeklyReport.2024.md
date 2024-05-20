@@ -1,6 +1,11 @@
 # [WeeklyReport 2024](https://github.com/goohugo/myblog/issues/30)
 
 > English, code, write, speech, read，这个时代复利最高的五件事。
+- **D20**
+    - 电商 - 京东用户脱敏三要素改造任务
+- **D19**
+    - 电商 - 拼多多订单合并发货接口更新
+    - 电商 -针对部分平台秒退款导致发货问题，需要对发货接口进行优化升级
 - **D18**
     - 门店 - 五一劳动节直营门店活动设置
     - 五一假期快乐
