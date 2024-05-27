@@ -1,6 +1,7 @@
 # [WeeklyReport 2024](https://github.com/goohugo/myblog/issues/30)
 
 > English, code, write, speech, read，这个时代复利最高的五件事。
+- **D21**
 - **D20**
     - 电商 - 京东用户脱敏三要素改造任务
 - **D19**
