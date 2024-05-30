@@ -1,8 +1,8 @@
-# [Mirror 中文教程](https://github.com/haoz0x139/myblog/issues/27)
+# [Mirror 中文教程](https://github.com/goohugo/myblog/issues/27)
 
 1. 下载 `Mirror` 的最新版本 [地址](https://github.com/LoeiFy/Mirror/raw/master/release/mirror.zip)
 
-2. 获取你的 `hash` [地址](https://github.com/LoeiFy/Mirror/wiki/%E8%8E%B7%E5%8F%96-hash)
+2. 获取你的 `hash` [地址](https://github.com/haoz0x139/myblog/issues/28)
 
 3. 修改 `index.html`
 
