@@ -1,6 +1,10 @@
 # [WeeklyReport 2024](https://github.com/goohugo/myblog/issues/30)
 
 > English, code, write, speech, read，这个时代复利最高的五件事。
+- **D23**
+- **D22**
+    - 电商 - 订单审核、新增、修改、查询功能优化店铺名称选择方式
+    - 门店 - 心意卡兑换程序优化
 - **D21**
 - **D20**
     - 电商 - 京东用户脱敏三要素改造任务
