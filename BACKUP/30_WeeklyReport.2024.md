@@ -1,6 +1,10 @@
 # [WeeklyReport 2024](https://github.com/goohugo/myblog/issues/30)
 
 > English, code, write, speech, read，这个时代复利最高的五件事。
+- **D24**
+    - 电商 - 小红书电商接口编写调试
+    - 门店 - 按客户归属进行销售统计新增按门店客户统计
+    - 生产 - 修复仓库管理汇总统计按制单人姓名汇总统计结果
 - **D23**
     - 门店 -  门店端午活动设置
     - 门店 - 心意卡兑换程序优化
