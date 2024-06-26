@@ -14,8 +14,8 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 ## 置顶文章
 - [WeeklyReport 2024](https://github.com/goohugo/myblog/issues/30)--2024-01-06
 ## 最近更新
+- [成为一名优秀开发者的10种方法](https://github.com/goohugo/myblog/issues/36)--2024-06-26
 - [Code Review Best Practices 读书笔记](https://github.com/goohugo/myblog/issues/35)--2024-06-26
 - [使用存储过程非常慢，但是执行SQL很快的解决方案](https://github.com/goohugo/myblog/issues/32)--2024-02-28
 - [《繁花》爆火，这35句台词炸裂了](https://github.com/goohugo/myblog/issues/31)--2024-01-10
 - [WeeklyReport 2024](https://github.com/goohugo/myblog/issues/30)--2024-01-06
-- [数据库更新表数据，从另一个表中取值](https://github.com/goohugo/myblog/issues/29)--2023-10-25
