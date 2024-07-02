@@ -1,6 +1,9 @@
 # [WeeklyReport 2024](https://github.com/goohugo/myblog/issues/30)
 
 > English, code, write, speech, read，这个时代复利最高的五件事。
+- **D26**
+    - 电商 - 小红书下载订单服务编写
+    - 电商 - 拼多多新店ERP服务对接配置
 - **D25**
     -  电商 - 京东开发平台应用评分安全项目整改处理
 - **D24**
