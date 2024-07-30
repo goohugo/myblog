@@ -1,6 +1,11 @@
 # [WeeklyReport 2024](https://github.com/goohugo/myblog/issues/30)
 
 > English, code, write, speech, read，这个时代复利最高的五件事。
+- **D31**
+    - 电商 - 百大易购聚水潭接口测试
+- **D30**
+    - 门店 -  合肥二级仓库散称商品库存问题调整
+    - 生产 -  外包车间包装任务
 - **D29**
     - 电商 - 小红书订单发货接口编写
 - **D28**
