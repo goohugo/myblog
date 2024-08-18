@@ -1,6 +1,11 @@
 # [WeeklyReport 2024](https://github.com/goohugo/myblog/issues/30)
 
 > English, code, write, speech, read，这个时代复利最高的五件事。
+- **D33**
+    - 加盟 - 销售入库单打印异常问题修复
+- **D32**
+    - 电商 -拼多多打印发货人地址错误修复
+    - 门店 - 其他入库出库新增按盘点结果导入产品，快速调整库存
 - **D31**
     - 电商 - 百大易购聚水潭接口测试
 - **D30**
