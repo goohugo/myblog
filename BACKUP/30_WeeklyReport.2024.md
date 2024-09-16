@@ -1,6 +1,12 @@
 # [WeeklyReport 2024](https://github.com/goohugo/myblog/issues/30)
 
 > English, code, write, speech, read，这个时代复利最高的五件事。
+- **D37**
+    - 门店 - 中秋节活动设置
+    - 生产 - 外包车间包装任务
+- **D36**
+    - 加盟 - 商品管理模块优化
+    - 门店- 手机心意卡兑换服务优化
 - **D35**
     - 加盟 - 用户管理问题、加盟赊销客户价格问题修复
     - 门店 - 手机心意卡兑换程序优化
