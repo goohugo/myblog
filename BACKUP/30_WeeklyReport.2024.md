@@ -1,6 +1,9 @@
 # [WeeklyReport 2024](https://github.com/goohugo/myblog/issues/30)
 
 > English, code, write, speech, read，这个时代复利最高的五件事。
+- **D38**
+    - 电商 - 协助打印得物平台订单
+    - 中秋快乐
 - **D37**
     - 门店 - 中秋节活动设置
     - 生产 - 外包车间包装任务
