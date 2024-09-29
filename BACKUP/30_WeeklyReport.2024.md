@@ -1,6 +1,9 @@
 # [WeeklyReport 2024](https://github.com/goohugo/myblog/issues/30)
 
 > English, code, write, speech, read，这个时代复利最高的五件事。
+- **D39**
+    - 仓库 - 仓库选中产品时，只显示产成品和包装物
+    - 电商 - 给发货部安装部署得物快递打印工具
 - **D38**
     - 电商 - 协助打印得物平台订单
     - 生产 - BOM单维护
