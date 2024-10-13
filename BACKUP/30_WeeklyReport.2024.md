@@ -1,6 +1,11 @@
 # [WeeklyReport 2024](https://github.com/goohugo/myblog/issues/30)
 
 > English, code, write, speech, read，这个时代复利最高的五件事。
+- **D41**
+    - 电商 -小红书电子面单接口编写
+    - 生产- 协助财务进行生产原材料仓库台账调整
+- **D40**
+    - 国庆节快乐
 - **D39**
     - 仓库 - 仓库选中产品时，只显示产成品和包装物
     - 电商 - 给发货部安装部署得物快递打印工具
