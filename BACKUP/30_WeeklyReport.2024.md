@@ -1,6 +1,9 @@
 # [WeeklyReport 2024](https://github.com/goohugo/myblog/issues/30)
 
 > English, code, write, speech, read，这个时代复利最高的五件事。
+- **D42**
+    - 电商 - 有赞电子面单打印接口编写
+    - 电商 - 有赞平台订单下载和发货接口编写
 - **D41**
     - 电商 -小红书电子面单接口编写
     - 生产- 协助财务进行生产原材料仓库台账调整
