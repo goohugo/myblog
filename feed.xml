@@ -1,5 +1,222 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/goohugo/myblog</id><title>RSS feed of goohugo's myblog</title><updated>2024-10-19T06:33:46.618863+00:00</updated><author><name>goohugo</name><email>haoz0x139@gmail.com</email></author><link href="https://github.com/goohugo/myblog"/><link href="https://raw.githubusercontent.com/goohugo/myblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/goohugo/myblog/issues/38</id><title>Win11 右键菜单优化代码</title><updated>2024-10-19T06:33:47.466262+00:00</updated><content type="html"><![CDATA[<p>回退经典右键菜单代码</p>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/goohugo/myblog</id><title>RSS feed of goohugo's myblog</title><updated>2024-11-05T00:53:02.260918+00:00</updated><author><name>goohugo</name><email>haoz0x139@gmail.com</email></author><link href="https://github.com/goohugo/myblog"/><link href="https://raw.githubusercontent.com/goohugo/myblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/goohugo/myblog/issues/39</id><title>比特币：一种点对点的电子现金系统</title><updated>2024-11-05T00:53:03.274758+00:00</updated><content type="html"><![CDATA[<h1>比特币：一种点对点的电子现金系统</h1>
+<p>​								作者：中本聪
+​								<a href="mailto:satoshin@gmx.com">satoshin@gmx.com</a>
+​								<a href="http://www.bitcoin.org">www.bitcoin.org</a>
+​								2008.10.31</p>
+<p>​								中文翻译：李笑来
+​								<a href="mailto:lixiaolai@gmail.com">lixiaolai@gmail.com</a>
+​								2018.10.31</p>
+<p>​								<a href="https://github.com/xiaolai/bitcoin-whitepaper-chinese-translation">Checkout Github Repo for this translation</a></p>
+<blockquote>
+<p><strong>Abstract.</strong> A purely peer-to-peer version of electronic cash would allow online payments to be sent directly from one party to another without going through a financial institution. Digital signatures provide part of the solution, but the main benefits are lost if a trusted third party is still required to prevent double-spending. We propose a solution to the double-spending problem using a peer-to-peer network. The network timestamps transactions by hashing them into an ongoing chain of hash-based proof-of-work, forming a record that cannot be changed without redoing the proof-of-work. The longest chain not only serves as proof of the sequence of events witnessed, but proof that it came from the largest pool of CPU power. As long as a majority of CPU power is controlled by nodes that are not cooperating to attack the network, they'll generate the longest chain and outpace attackers. The network itself requires minimal structure. Messages are broadcast on a best effort basis, and nodes can leave and rejoin the network at will, accepting the longest proof-of-work chain as proof of what happened while they were gone. </p>
+<p><strong>概要</strong>：一个纯粹的点对点版本的电子现金系统，将允许在线支付直接从一方发送到另一方，而无需通过金融机构。数字签名虽然提供了部分解决方案，但，若是仍然需要被信任的第三方来防止双重支出的话，那么电子支付的主要优势就被抵消了。我们提出一个方案，使用点对点网络去解决双重支出问题。点对点网络将为每笔交易标记时间戳，方法是：把交易的散列数据录入一个不断延展的、以散列为基础的工作证明链上，形成一个如非完全重做就不可能改变的记录。最长链，一方面用来证明已被见证的事件及其顺序，与此同时，也用来证明它来自于最大的 CPU 算力池。只要绝大多数 CPU 算力被良性节点控制 —— 即，它们不与那些尝试攻击网络的节点合作 —— 那么，良性节点将会生成最长链，并且在速度上超过攻击者。这个网络本身需要最小化的结构。信息将以最大努力为基本去传播，节点来去自由；但，加入之时总是需要接受最长的工作证明链作为它们未参与期间所发生之一切的证明。</p>
+</blockquote>
+<hr />
+<h2>1. 简介 (Introduction)</h2>
+<p>Commerce on the Internet has come to rely almost exclusively on financial institutions serving as trusted third parties to process electronic payments. While the system works well enough for most transactions, it still suffers from the inherent weaknesses of the trust based model. Completely non-reversible transactions are not really possible, since financial institutions cannot avoid mediating disputes. The cost of mediation increases transaction costs, limiting the minimum practical transaction size and cutting off the possibility for small casual transactions, and there is a broader cost in the loss of ability to make non-reversible payments for non-reversible services. With the possibility of reversal, the need for trust spreads. Merchants must be wary of their customers, hassling them for more information than they would otherwise need. A certain percentage of fraud is accepted as unavoidable. These costs and payment uncertainties can be avoided in person by using physical currency, but no mechanism exists to make payments over a communications channel without a trusted party.</p>
+<p>互联网商业几乎完全依赖金融机构作为可信第三方去处理电子支付。虽然针对大多数交易来说，这个系统还算不错，但，它仍然被基于信任的模型所固有的缺陷所拖累。完全不可逆转的交易实际上并不可能，因为金融机构不能避免仲裁争议。仲裁成本增加了交易成本，进而限制了最小可能交易的规模，且干脆阻止了很多小额支付交易。除此之外，还有更大的成本：系统无法为那些不可逆的服务提供不可逆的支付。逆转的可能性，造成了对于信任的需求无所不在。商家必须提防着他们的顾客，麻烦顾客提供若非如此（如若信任）就并不必要的更多信息。一定比例的欺诈，被认为是不可避免的。这些成本和支付不确定性，虽然在人与人之间直接使用物理货币支付的时候是可以避免的；但，没有任何一个机制能在双方在其中一方不被信任的情况下通过沟通渠道进行支付。</p>
+<p>What is needed is an electronic payment system based on cryptographic proof instead of trust, allowing any two willing parties to transact directly with each other without the need for a trusted third party. Transactions that are computationally impractical to reverse would protect sellers from fraud, and routine escrow mechanisms could easily be implemented to protect buyers. In this paper, we propose a solution to the double-spending problem using a peer-to-peer distributed timestamp server to generate computational proof of the chronological order of transactions. The system is secure as long as honest nodes collectively control more CPU power than any cooperating group of attacker nodes.</p>
+<p>我们真正需要的是一种基于加密证明而非基于信任的电子支付系统，允许任意双方在不需要信任第三方的情况下直接交易。算力保障的不可逆转交易能帮助卖家不被欺诈，而保护买家的日常担保机制也很容易实现。在本论文中，我们将提出一种针对双重支出的解决方案，使用点对点的、分布式的时间戳服务器去生成基于算力的证明，按照时间顺序记录每条交易。此系统是安全的，只要诚实节点总体上相对于相互合作的攻击者掌握更多的 CPU 算力。</p>
+<h2>2. 交易 (Transactions)</h2>
+<p>We define an electronic coin as a chain of digital signatures. Each owner transfers the coin to the next by digitally signing a hash of the previous transaction and the public key of the next owner and adding these to the end of the coin. A payee can verify the signatures to verify the chain of ownership.</p>
+<p>我们将一枚电子硬币定义为一个数字签名链。一位所有者将一枚硬币交给另一个人的时候，要通过在这个数字签名链的末尾附加上以下数字签名：上一笔交易的哈希（hash，音译，亦翻译为“散列值”），以及新所有者的公钥。收款人可以通过验证签名去验证数字签名链的所属权。</p>
+<p><img src="images/transactions.svg" alt="" /></p>
+<p>The problem of course is the payee can't verify that one of the owners did not double-spend the coin. A common solution is to introduce a trusted central authority, or mint, that checks every transaction for double spending. After each transaction, the coin must be returned to the mint to issue a new coin, and only coins issued directly from the mint are trusted not to be double-spent. The problem with this solution is that the fate of the entire money system depends on the company running the mint, with every transaction having to go through them, just like a bank.</p>
+<p>这个路径的问题在于收款人无法验证曾经的所有者之中没有人双重支付过。常见的解决方案是引入一个可信的中心化权威方，或称“铸币厂”，让它去检查每一笔交易是否存在双重支付。每一次发生交易之后，硬币必须返回到铸币厂，铸币厂再发行一枚新的硬币。进而，只有铸币厂直接发行的硬币才是可信的、未被双重支付过的。这个解决方案的问题在于，整个货币系统的命运被拴在运营铸币厂的那个公司（就好像银行那样）身上，每一笔交易必须通过它。</p>
+<p>We need a way for the payee to know that the previous owners did not sign any earlier transactions. For our purposes, the earliest transaction is the one that counts, so we don't care about later attempts to double-spend. The only way to confirm the absence of a transaction is to be aware of all transactions. In the mint based model, the mint was aware of all transactions and decided which arrived first. To accomplish this without a trusted party, transactions must be publicly announced[^1], and we need a system for participants to agree on a single history of the order in which they were received. The payee needs proof that at the time of each transaction, the majority of nodes agreed it was the first received.</p>
+<p>我们需要一种方式，可以让收款人确认之前的所有者并没有在任何之前的交易上签名。就我们的目的而言，只有最早的交易是算数的，所以，我们并不关心其后的双重支付企图。确认一笔交易不存在的唯一方法是获悉所有的交易。在铸币厂模型之中，铸币厂已然知悉所有的交易，并且能够确认这些交易的顺序。为了能在没有“被信任的一方”参与的情况下完成以上任务，交易记录必须被公开宣布[^1]，进而我们需要一个系统能让参与者们认同它们所接收到的同一个唯一的交易历史。收款人需要证明在每笔交易发生之时，大多数节点能够认同它是第一个被接收的。</p>
+<h2>3. 时间戳服务器 (Timestamp Server)</h2>
+<p>The solution we propose begins with a timestamp server. A timestamp server works by taking a hash of a block of items to be timestamped and widely publishing the hash, such as in a newspaper or Usenet post[^2] [^3] [^4] [^5]. The timestamp proves that the data must have existed at the time, obviously, in order to get into the hash. Each timestamp includes the previous timestamp in its hash, forming a chain, with each additional timestamp reinforcing the ones before it.</p>
+<p>本解决方案起步于一种时间戳服务器。时间戳服务器是这样工作的：为一组（block）记录（items）的哈希打上时间戳，而后把哈希广播出去，就好像一份报纸所做的那样，或者像是在新闻组（Usenet）里的一个帖子那样[^2] [^3] [^4] [^5]。显然，时间戳能够证明那数据在那个时间点之前已然存在，否则那哈希也就无法生成。每个时间戳在其哈希中包含着之前的时间戳，因此构成了一个链；每一个新的时间戳被添加到之前的时间戳之后。</p>
+<p><img src="images/timestamp-server.svg" alt="" /></p>
+<h2>4. 工作证明 (Proof-of-Work)</h2>
+<p>To implement a distributed timestamp server on a peer-to-peer basis, we will need to use a proof-of-work system similar to Adam Back's Hashcash[^6], rather than newspaper or Usenet posts. The proof-of-work involves scanning for a value that when hashed, such as with SHA-256, the hash begins with a number of zero bits. The average work required is exponential in the number of zero bits required and can be verified by executing a single hash.</p>
+<p>为了实现一个基于点对点的分布式时间戳服务器，我们需要使用类似亚当·伯克的哈希现金[^6]那样的一个工作证明系统，而不是报纸或者新闻组帖子那样的东西。所谓的工作证明，就是去寻找一个数值；这个数值要满足以下条件：为它提取散列数值之后 —— 例如使用 SHA-256 计算散列数值 —— 这个散列数值必须以一定数量的 0 开头。每增加一个 0 的要求，将使得工作量指数级增加，并且，这个工作量的验证却只需通过计算一个哈希。</p>
+<p>For our timestamp network, we implement the proof-of-work by incrementing a nonce in the block until a value is found that gives the block's hash the required zero bits. Once the CPU effort has been expended to make it satisfy the proof-of-work, the block cannot be changed without redoing the work. As later blocks are chained after it, the work to change the block would include redoing all the blocks after it.</p>
+<p>在我们的时间戳网络中，我们是这样实现工作证明的：不断在区块之中增加一个随机数（Nonce），直到一个满足条件的数值被找到；这个条件就是，这个区块的哈希以指定数量的 0 开头。一旦 CPU 的耗费算力所获的的结果满足工作证明，那么这个区块将不再能被更改，除非重新完成之前的所有工作量。随着新的区块不断被添加进来，改变当前区块即意味着说要重新完成所有其后区块的工作。</p>
+<p><img src="images/proof-of-work.svg" alt="" /></p>
+<p>The proof-of-work also solves the problem of determining representation in majority decision making. If the majority were based on one-IP-address-one-vote, it could be subverted by anyone able to allocate many IPs. Proof-of-work is essentially one-CPU-one-vote. The majority decision is represented by the longest chain, which has the greatest proof-of-work effort invested in it. If a majority of CPU power is controlled by honest nodes, the honest chain will grow the fastest and outpace any competing chains. To modify a past block, an attacker would have to redo the proof-of-work of the block and all blocks after it and then catch up with and surpass the work of the honest nodes. We will show later that the probability of a slower attacker catching up diminishes exponentially as subsequent blocks are added.</p>
+<p>工作证明同时解决了如何决定谁能代表大多数做决定的问题。如果所谓的“大多数”是基于“一个IP地址一票”的方式决定的话，那么任何一个可以搞定很多 IP 地址的人就可以被认为是“大多数”。工作证明本质上来看，是“一个CPU一票”。所谓的“大多数决定”是由最长链所代表的，因为被投入最多工作的链就是它。如果大多数 CPU 算力被诚实的节点所控制，那么诚实链成长最为迅速，其速度会远超其他竞争链。为了更改一个已经产生的区块，攻击者将不得不重新完成那个区块以及所有其后区块的的工作证明，而后还要追上并超过诚实节点的工作。后文展示为什么一个被拖延了的攻击者能够追上的可能性将随着区块的不断增加而指数级降低。</p>
+<p>To compensate for increasing hardware speed and varying interest in running nodes over time, the proof-of-work difficulty is determined by a moving average targeting an average number of blocks per hour. If they're generated too fast, the difficulty increases.</p>
+<p>为了应对硬件算力综合的不断增加，以及随着时间推进可能产生的节点参与数量变化，工作证明难度由此决定：基于平均每小时产生的区块数量的一个移动平均值。如果区块生成得过快，那么难度将会增加。</p>
+<h2>5. 网络 (Network)</h2>
+<p>The steps to run the network are as follows:</p>
+<blockquote>
+<ol>
+<li>New transactions are broadcast to all nodes.</li>
+<li>Each node collects new transactions into a block.</li>
+<li>Each node works on finding a difficult proof-of-work for its block.</li>
+<li>When a node finds a proof-of-work, it broadcasts the block to all nodes.</li>
+<li>Nodes accept the block only if all transactions in it are valid and not already spent.</li>
+<li>Nodes express their acceptance of the block by working on creating the next block in the chain, using the hash of the accepted block as the previous hash.</li>
+</ol>
+</blockquote>
+<p>运行网络的步骤如下：</p>
+<blockquote>
+<ol>
+<li>所有新的交易向所有节点广播；</li>
+<li>每个节点将新交易打包到一个区块；</li>
+<li>每个节点开始为此区块找一个具备难度的工作证明；</li>
+<li>当某个区块找到其工作证明，它就要将此区块广播给所有节点；</li>
+<li>众多其他节点当且只当以下条件满足才会接受这个区块：其中所有的交易都是有效的，且未被双重支付；</li>
+<li>众多节点向网络表示自己接受这个区块的方法是，在创建下一个区块的时候，把被接受区块的哈希当作新区块之前的哈希。</li>
+</ol>
+</blockquote>
+<p>Nodes always consider the longest chain to be the correct one and will keep working on extending it. If two nodes broadcast different versions of the next block simultaneously, some nodes may receive one or the other first. In that case, they work on the first one they received, but save the other branch in case it becomes longer. The tie will be broken when the next proof-of-work is found and one branch becomes longer; the nodes that were working on the other branch will then switch to the longer one.</p>
+<p>节点始终认为最长链是正确的那个，且会不断向其添加新数据。若是有两个节点同时向网络广播了两个不同版本的“下一个区块”，有些节点会先接收到其中一个，而另外一些节点会先接收到另外一个。这种情况下，节点将在它们先接收到的那个区块上继续工作，但也会把另外一个分支保存下来，以防后者成为最长链。当下一个工作证明被找到，而其中的一个分支成为更长的链之后，这个暂时的分歧会被打消，在另外一个分支上工作的节点们会切换到更长的链上。</p>
+<p>New transaction broadcasts do not necessarily need to reach all nodes. As long as they reach many nodes, they will get into a block before long. Block broadcasts are also tolerant of dropped messages. If a node does not receive a block, it will request it when it receives the next block and realizes it missed one.</p>
+<p>新的交易不见得一定要广播到达所有的节点。只要到达足够多的节点，那么没多久这些交易就会被打包进一个区块。区块广播也容许一些消息被丢弃。如果一个节点并未接收到某个区块，那么这个节点会在它接收到下一个区块的时候意识到自己错失了之前的区块，因此会发出补充那个遗失区块的请求。</p>
+<h2>6. 奖励 (Incentive)</h2>
+<p>By convention, the first transaction in a block is a special transaction that starts a new coin owned by the creator of the block. This adds an incentive for nodes to support the network, and provides a way to initially distribute coins into circulation, since there is no central authority to issue them. The steady addition of a constant of amount of new coins is analogous to gold miners expending resources to add gold to circulation. In our case, it is CPU time and electricity that is expended.</p>
+<p>按照约定，每个区块的第一笔交易是一个特殊的交易，它会生成一枚新的硬币，所属权是这个区块的生成者。这么做，使得节点支持网络有所奖励，也提供了一种将硬币发行到流通之中的方式 —— 在这个系统中，反正也没有一个中心化的权威方去发行那些硬币。如此这般稳定地增加一定数量的新硬币进入流通，就好像是黄金开采者不断耗用他们的资源往流通之中增加黄金一样。在我们的系统中，被耗用的资源是 CPU 工作时间和它们所用的电力。</p>
+<p>The incentive can also be funded with transaction fees. If the output value of a transaction is less than its input value, the difference is a transaction fee that is added to the incentive value of the block containing the transaction. Once a predetermined number of coins have entered circulation, the incentive can transition entirely to transaction fees and be completely inflation free.</p>
+<p>奖励还可以来自交易费用。如果一笔交易的输出值小于它的输入值，那么其中的差额就是交易费；而该交易费就是用来奖励节点把该交易打包进此区块的。一旦既定数量的硬币已经进入流通，那么奖励将全面交由交易手续费来完成，且绝对不会有通货膨胀。</p>
+<p>The incentive may help encourage nodes to stay honest. If a greedy attacker is able to assemble more CPU power than all the honest nodes, he would have to choose between using it to defraud people by stealing back his payments, or using it to generate new coins. He ought to find it more profitable to play by the rules, such rules that favour him with more new coins than everyone else combined, than to undermine the system and the validity of his own wealth.</p>
+<p>奖励机制也可能会鼓励节点保持诚实。如果一个贪婪的攻击者能够网罗比所有诚实节点都更多的 CPU 算力，他必须做出一个选择：是用这些算力通过把自己花出去的钱偷回来去欺骗别人呢？还是用这些算力去生成新的硬币？他应该能够发现按照规则行事是更划算的，当前规则使得他能够获得比所有其他人加起来都更多的硬币，这显然比暗中摧毁系统并使自己的财富化为虚无更划算。</p>
+<h2>7. 回收硬盘空间 (Reclaiming Disk Space)</h2>
+<p>Once the latest transaction in a coin is buried under enough blocks, the spent transactions before it can be discarded to save disk space. To facilitate this without breaking the block's hash, transactions are hashed in a Merkle Tree[^2][^5][^7], with only the root included in the block's hash. Old blocks can then be compacted by stubbing off branches of the tree. The interior hashes do not need to be stored.</p>
+<p>如果一枚硬币最近发生的交易发生在足够多的区块之前，那么，这笔交易之前该硬币的花销交易记录可以被丢弃 —— 目的是为了节省磁盘空间。为了在不破坏该区块的哈希的前提下实现此功能，交易记录的哈希将被纳入一个 Merkle 树[^2][^5][^7]之中，而只有树根被纳入该区块的哈希之中。通过砍掉树枝方法，老区块即可被压缩。内部的哈希并不需要被保存。</p>
+<p><img src="images/reclaiming-disk-space.svg" alt="" /></p>
+<p>A block header with no transactions would be about 80 bytes. If we suppose blocks are generated every 10 minutes, 80 bytes * 6 * 24 * 365 = 4.2MB per year. With computer systems typically selling with 2GB of RAM as of 2008, and Moore's Law predicting current growth of 1.2GB per year, storage should not be a problem even if the block headers must be kept in memory.</p>
+<p>一个没有任何交易记录的区块头大约是 80 个字节。假设每十分钟产生一个区块，80 字节乘以 6 乘以 24 乘以 365，等于每年 4.2M。截止 2008 年，大多数在售的计算机配有 2GB 内存，而按照摩尔定律的预测，每年会增加 1.2 GB，即便是区块头必须存储在内存之中也不会是什么问题。</p>
+<h2>8. 简化版支付确认 (Simplified Payment Verification)</h2>
+<p>It is possible to verify payments without running a full network node. A user only needs to keep a copy of the block headers of the longest proof-of-work chain, which he can get by querying network nodes until he's convinced he has the longest chain, and obtain the Merkle branch linking the transaction to the block it's timestamped in. He can't check the transaction for himself, but by linking it to a place in the chain, he can see that a network node has accepted it, and blocks added after it further confirm the network has accepted it.</p>
+<p>即便不用运行一个完整网络节点也有可能确认支付。用户只需要有一份拥有工作证明的最长链的区块头拷贝 —— 他可以通过查询在线节点确认自己拥有的确实来自最长链 —— 而后获取 Merkle 树的树枝节点，进而连接到这个区块被打上时间戳时的交易。用户并不能自己检查交易，但，通过连接到链上的某个地方，他可以看到某个网络节点已经接受了这个交易，而此后加进来的区块进一步确认了网络已经接受了此笔交易。</p>
+<p><img src="images/simplified-payment-verification.svg" alt="" /></p>
+<p>As such, the verification is reliable as long as honest nodes control the network, but is more vulnerable if the network is overpowered by an attacker. While network nodes can verify transactions for themselves, the simplified method can be fooled by an attacker's fabricated transactions for as long as the attacker can continue to overpower the network. One strategy to protect against this would be to accept alerts from network nodes when they detect an invalid block, prompting the user's software to download the full block and alerted transactions to confirm the inconsistency. Businesses that receive frequent payments will probably still want to run their own nodes for more independent security and quicker verification.</p>
+<p>只要诚实节点依然在掌控网络，如此这般，验证即为可靠的。然而，如果网络被攻击者所控制的时候，验证就没那么可靠了。尽管网络节点可以自己验证交易记录，但是，只要攻击者能够继续控制网络的话，那么简化版验证方式可能会被攻击者伪造的交易记录所欺骗。应对策略之一是，客户端软件要接受来自网络节点的警告。当网络节点发现无效区块的时候，即发出警报，在用户的软件上弹出通知，告知用户下载完整区块，警告用户确认交易一致性。那些有高频收付发生的商家应该仍然希望运行属于自己的完整节点，以此保证更独立的安全性和更快的交易确认。</p>
+<h2>9. 价值的组合与分割 (Combining and Splitting Value)</h2>
+<p>Although it would be possible to handle coins individually, it would be unwieldy to make a separate transaction for every cent in a transfer. To allow value to be split and combined, transactions contain multiple inputs and outputs. Normally there will be either a single input from a larger previous transaction or multiple inputs combining smaller amounts, and at most two outputs: one for the payment, and one returning the change, if any, back to the sender.</p>
+<p>尽管逐个地处理硬币是可能的，但为每分钱设置一个单独的记录是很笨拙的。为了允许价值的分割与合并，交易记录包含多个输入和输出。一般情况下，要么是一个单独的来自于一个相对大的之前的交易的输入，要么是很多个输入来自于更小金额的组合；与此同时，最多有两个输出：一个是支付（指向收款方），如果必要的话，另外一个是找零（指向发款方）。</p>
+<p><img src="images/combining-splitting-value.svg" alt="" /></p>
+<p>It should be noted that fan-out, where a transaction depends on several transactions, and those transactions depend on many more, is not a problem here. There is never the need to extract a complete standalone copy of a transaction's history.</p>
+<p>值得注意的是，“扇出”在这里并不是问题 —— 所谓“扇出”，就是指一笔交易依赖于数笔交易，且这些交易又依赖于更多笔交易。从来就没有必要去提取任何一笔交易的完整独立的历史拷贝。</p>
+<h2>10. 隐私 (Privacy)</h2>
+<p>The traditional banking model achieves a level of privacy by limiting access to information to the parties involved and the trusted third party. The necessity to announce all transactions publicly precludes this method, but privacy can still be maintained by breaking the flow of information in another place: by keeping public keys anonymous. The public can see that someone is sending an amount to someone else, but without information linking the transaction to anyone. This is similar to the level of information released by stock exchanges, where the time and size of individual trades, the &quot;tape&quot;, is made public, but without telling who the parties were.</p>
+<p>传统的银行模型通过限制他人获取交易者和可信第三方的信息而达成一定程度的隐私保护。出于对将所有交易记录公开的需求否决了这种方法。但是，维持隐私可通过于另一处的切断信息流来实现——公钥匿名。公众可以看到某某向某某转账了一定的金额，但是，没有任何信息指向某个确定的人。这种水平的信息发布有点像股市交易，只有时间和各个交易的金额被公布，但是，没有人知道交易双方都是谁。</p>
+<p><img src="images/privacy.svg" alt="" /></p>
+<p>As an additional firewall, a new key pair should be used for each transaction to keep them from being linked to a common owner. Some linking is still unavoidable with multi-input transactions, which necessarily reveal that their inputs were owned by the same owner. The risk is that if the owner of a key is revealed, linking could reveal other transactions that belonged to the same owner.</p>
+<p>还有另外一层防火墙。交易者应该针对每一笔交易启用一对新的公私钥，以便他人无法将这些交易追溯到同一个所有者身上。有些多输入的交易依然难免被追溯，因为那些输入必然会被识别出来自于同一个所有者。危险在于，如果一个公钥的所有者被曝光之后，与之相关的所有其他交易都会被曝光。</p>
+<h2>11. 计算 (Calculations)</h2>
+<p>We consider the scenario of an attacker trying to generate an alternate chain faster than the honest chain. Even if this is accomplished, it does not throw the system open to arbitrary changes, such as creating value out of thin air or taking money that never belonged to the attacker. Nodes are not going to accept an invalid transaction as payment, and honest nodes will never accept a block containing them. An attacker can only try to change one of his own transactions to take back money he recently spent.</p>
+<p>假设一个场景，某个攻击者正在试图生成一个比诚实链更快的替代链。就算他成功了，也不能对系统做任意的修改，即，他不可能凭空制造出价值，也无法获取从未属于他的钱。网络节点不会把一笔无效交易当作支付，而诚实节点也永远不会接受一个包含这种支付的区块。攻击者最多只能修改属于他自己的交易，进而试图取回他已经花出去的钱。</p>
+<p>The race between the honest chain and an attacker chain can be characterized as a Binomial Random Walk. The success event is the honest chain being extended by one block, increasing its lead by +1, and the failure event is the attacker's chain being extended by one block, reducing the gap by -1.</p>
+<p>诚实链和攻击者之间的竞争可以用二项式随机漫步来描述。成功事件是诚实链刚刚被添加了一个新的区块，使得它的优势增加了 $1$；而失败事件是攻击者的链刚刚被增加了一个新的区块，使得诚实链的优势减少了 $1$。</p>
+<p>The probability of an attacker catching up from a given deficit is analogous to a Gambler's Ruin problem. Suppose a gambler with unlimited credit starts at a deficit and plays potentially an infinite number of trials to try to reach breakeven. We can calculate the probability he ever reaches breakeven, or that an attacker ever catches up with the honest chain, as follows[^8]:</p>
+<p>攻击者能够从落后局面追平的概率类似于赌徒破产问题。假设，一个拿着无限筹码的赌徒，从亏空开始，允许他赌无限次，目标是填补上已有的亏空。我们能算出他最终能填补亏空的概率，也就是攻击者能够赶上诚实链的概率[^8]，如下：</p>
+<p>$$
+\begin{eqnarray*}
+\large p &amp;=&amp; \text{ 诚实节点找到下一个区块的概率}\
+\large q &amp;=&amp; \text{ 攻击者找到下一个区块的概率}\
+\large q_z &amp;=&amp; \text{ 攻击者落后 $z$ 个区块却依然能够赶上的概率}
+\end{eqnarray*}
+$$</p>
+<p>$$
+\large q_z = \begin{Bmatrix}
+1 &amp; \textit{if}; p \leq q\
+(q/p)^z &amp; \textit{if}; p &gt; q
+\end{Bmatrix}
+$$</p>
+<p>Given our assumption that $p \gt q​$, the probability drops exponentially as the number of blocks the attacker has to catch up with increases. With the odds against him, if he doesn't make a lucky lunge forward early on, his chances become vanishingly small as he falls further behind.</p>
+<p>既然我们已经假定 $p &gt; q$, 既然攻击者需要赶超的区块数量越来越多，那么其成功概率就会指数级下降。于赢面不利时，如果攻击者没有在起初就能幸运地向前猛跨一步，那么他的胜率将在他进一步落后的同时消弭殆尽。</p>
+<p>We now consider how long the recipient of a new transaction needs to wait before being sufficiently certain the sender can't change the transaction. We assume the sender is an attacker who wants to make the recipient believe he paid him for a while, then switch it to pay back to himself after some time has passed. The receiver will be alerted when that happens, but the sender hopes it will be too late.</p>
+<p>现在考虑一下一笔新交易的收款人需要等多久才能充分确定发款人不能更改这笔交易。我们假定发款人是个攻击者，妄图让收款人在一段时间里相信他已经支付对付款项，随后将这笔钱再转回给自己。发生这种情况时，收款人当然会收到警告，但发款人希望那时木已成舟。</p>
+<p>The receiver generates a new key pair and gives the public key to the sender shortly before signing. This prevents the sender from preparing a chain of blocks ahead of time by working on it continuously until he is lucky enough to get far enough ahead, then executing the transaction at that moment. Once the transaction is sent, the dishonest sender starts working in secret on a parallel chain containing an alternate version of his transaction.</p>
+<p>收款人生成了一对新的公私钥，而后在签署之前不久将公钥告知发款人。这样可以防止一种情形：发款人提前通过连续运算去准备一条链上的区块，并且只要有足够的运气就会足够领先，直到那时再执行交易。一旦款项已被发出，那个不诚实的发款人开始秘密地在另一条平行链上开工，试图在其中加入一个反向版本的交易。</p>
+<p>The recipient waits until the transaction has been added to a block and $z$ blocks have been linked after it. He doesn't know the exact amount of progress the attacker has made, but assuming the honest blocks took the average expected time per block, the attacker's potential progress will be a Poisson distribution with expected value:</p>
+<p>收款人等到此笔交易被打包进区块，并已经有 $z$ 个区块随后被加入。他并不知道攻击者的工作进展究竟如何，但是可以假定诚实区块在每个区块生成过程中耗费的平均时间；攻击者的潜在进展符合泊松分布，其期望值为：</p>
+<p>$$
+\large \lambda = z \frac qp
+$$</p>
+<p>To get the probability the attacker could still catch up now, we multiply the Poisson density for each amount of progress he could have made by the probability he could catch up from that point:</p>
+<p>为了算出攻击者依然可以赶上的概率，我们要把攻击者需要追赶的区块数目的帕松分布概率密度，乘以在落后该区块数目下能够追上来的概率：</p>
+<p>$$
+\large \sum_{k=0}^{\infty} \frac{\lambda^k e^{-\lambda}}{k!} \cdot
+\begin{Bmatrix}
+(q/p)^{(z-k)} &amp; \textit{if};k\leq z\
+1 &amp; \textit{if} ; k &gt; z
+\end{Bmatrix}
+$$</p>
+<p>Rearranging to avoid summing the infinite tail of the distribution...</p>
+<p>为了避免对密度分布的无穷级数求和重新整理…</p>
+<p>$$
+\large 1 - \sum_{k=0}^{z} \frac{\lambda^k e^{-\lambda}}{k!}
+\left ( 1-(q/p)^{(z-k)} \right )
+$$</p>
+<p>Converting to C code...</p>
+<p>转换为 C 语言程序……</p>
+<pre><code class="language-c">#include &lt;math.h&gt;
+double AttackerSuccessProbability(double q, int z)
+{
+	double p = 1.0 - q;
+	double lambda = z * (q / p);
+	double sum = 1.0;
+	int i, k;
+	for (k = 0; k &lt;= z; k++)
+	{
+		double poisson = exp(-lambda);
+		for (i = 1; i &lt;= k; i++)
+			poisson *= lambda / i;
+		sum -= poisson * (1 - pow(q / p, z - k));
+	}
+	return sum;
+}
+</code></pre>
+<p>Running some results, we can see the probability drop off exponentially with $z$.</p>
+<p>获取部分结果，我们可以看到概率随着 $z$ 的增加指数级下降：</p>
+<pre><code>   q=0.1
+   z=0    P=1.0000000
+   z=1    P=0.2045873
+   z=2    P=0.0509779
+   z=3    P=0.0131722
+   z=4    P=0.0034552
+   z=5    P=0.0009137
+   z=6    P=0.0002428
+   z=7    P=0.0000647
+   z=8    P=0.0000173
+   z=9    P=0.0000046
+   z=10   P=0.0000012
+   
+   q=0.3
+   z=0    P=1.0000000
+   z=5    P=0.1773523
+   z=10   P=0.0416605
+   z=15   P=0.0101008
+   z=20   P=0.0024804
+   z=25   P=0.0006132
+   z=30   P=0.0001522
+   z=35   P=0.0000379
+   z=40   P=0.0000095
+   z=45   P=0.0000024
+   z=50   P=0.0000006
+</code></pre>
+<p>Solving for P less than 0.1%...</p>
+<p>若是 P 小于 0.1%……</p>
+<pre><code>   P &lt; 0.001
+   q=0.10   z=5
+   q=0.15   z=8
+   q=0.20   z=11
+   q=0.25   z=15
+   q=0.30   z=24
+   q=0.35   z=41
+   q=0.40   z=89
+   q=0.45   z=340
+</code></pre>
+<h2>12. 结论 (Conclusion)</h2>
+<p>We have proposed a system for electronic transactions without relying on trust. We started with the usual framework of coins made from digital signatures, which provides strong control of ownership, but is incomplete without a way to prevent double-spending. To solve this, we proposed a peer-to-peer network using proof-of-work to record a public history of transactions that quickly becomes computationally impractical for an attacker to change if honest nodes control a majority of CPU power. The network is robust in its unstructured simplicity. Nodes work all at once with little coordination. They do not need to be identified, since messages are not routed to any particular place and only need to be delivered on a best effort basis. Nodes can leave and rejoin the network at will, accepting the proof-of-work chain as proof of what happened while they were gone. They vote with their CPU power, expressing their acceptance of valid blocks by working on extending them and rejecting invalid blocks by refusing to work on them. Any needed rules and incentives can be enforced with this consensus mechanism.</p>
+<p>我们提出了一个不必依赖信任的电子交易系统；起点是一个普通的使用数字签名的硬币框架开始，虽然它提供了健壮的所有权控制，却无法避免双重支付。为了解决这个问题，我们提出一个使用工作证明机制的点对点网络去记录一个公开的交易记录历史，只要诚实节点能够控制大多数 CPU 算力，那么攻击者就仅从算力方面就不可能成功篡改系统。这个网络的健壮在于它的无结构的简单。节点们可以在很少协同的情况下瞬间同时工作。它们甚至不需要被辨认，因为消息的路径并非取决于特定的终点；消息只需要被以最大努力为基本去传播即可。节点来去自由，重新加入时，只需要接受工作证明链，作为它们离线之时所发生之一切的证明。它们通过它们的 CPU 算力投票，通过不断为链添加新的有效区块、拒绝无效区块，去表示它们对有效交易的接受与否。任何必要的规则和奖励都可以通过这个共识机制来强制实施。</p>
+<hr />
+<h2>参考文献 (References)</h2>
+<p>[^1]: <strong>b-money</strong> Dai Wei (1998-11-01) <a href="http://www.weidai.com/bmoney.txt">http://www.weidai.com/bmoney.txt</a>
+[^2]: <strong>Design of a secure timestamping service with minimal trust requirements</strong> Henri Massias, Xavier Serret-Avila, Jean-Jacques Quisquater <em>20th Symposium on Information Theory in the Benelux</em> (1999-05) <a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.13.6228">http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.13.6228</a>
+[^3]: <strong>How to time-stamp a digital document</strong> Stuart Haber, W.Scott Stornetta <em>Journal of Cryptology</em> (1991) <a href="https://doi.org/cwwxd4">https://doi.org/cwwxd4</a> DOI: <a href="https://doi.org/10.1007/bf00196791">10.1007/bf00196791</a>
+[^4]: <strong>Improving the Efficiency and Reliability of Digital Time-Stamping</strong> Dave Bayer, Stuart Haber, W. Scott Stornetta <em>Sequences II</em> (1993) <a href="https://doi.org/bn4rpx">https://doi.org/bn4rpx</a> DOI: <a href="https://doi.org/10.1007/978-1-4613-9323-8_24">10.1007/978-1-4613-9323-8_24</a>
+[^5]: <strong>Secure names for bit-strings</strong> Stuart Haber, W. Scott Stornetta <em>Proceedings of the 4th ACM conference on Computer and communications security - CCS ’97</em>(1997) <a href="https://doi.org/dtnrf6">https://doi.org/dtnrf6</a> DOI: <a href="https://doi.org/10.1145/266420.266430">10.1145/266420.266430</a>
+[^6]: <strong>Hashcash - A Denial of Service Counter-Measure</strong> Adam Back (2002-08-01) <a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.15.8">http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.15.8</a>
+[^7]: <strong>Protocols for Public Key Cryptosystems</strong> Ralph C. Merkle <em>1980 IEEE Symposium on Security and Privacy</em> (1980-04) <a href="https://doi.org/bmvbd6">https://doi.org/bmvbd6</a> DOI: <a href="https://doi.org/10.1109/sp.1980.10006">10.1109/sp.1980.10006</a>
+[^8]: <strong>An Introduction to Probability Theory and its Applications</strong> William Feller <em>John Wiley &amp; Sons</em> (1957) <a href="https://archive.org/details/AnIntroductionToProbabilityTheoryAndItsApplicationsVolume1">https://archive.org/details/AnIntroductionToProbabilityTheoryAndItsApplicationsVolume1</a></p>
+]]></content><link href="https://github.com/goohugo/myblog/issues/39"/><category term="Technical Articles"/><published>2024-11-05T00:52:25+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/38</id><title>Win11 右键菜单优化代码</title><updated>2024-11-05T00:53:03.726318+00:00</updated><content type="html"><![CDATA[<p>回退经典右键菜单代码</p>
 <pre><code>reg add &quot;HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32&quot; /f /ve
 taskkill /f /im explorer.exe &amp; start explorer.exe
 </code></pre>
@@ -7,7 +224,7 @@ taskkill /f /im explorer.exe &amp; start explorer.exe
 <pre><code>reg delete &quot;HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}&quot; /f
 taskkill /f /im explorer.exe &amp; start explorer.exe
 </code></pre>
-]]></content><link href="https://github.com/goohugo/myblog/issues/38"/><category term="Technical Articles"/><published>2024-09-24T07:14:31+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/36</id><title>成为一名优秀开发者的10种方法</title><updated>2024-10-19T06:33:47.787763+00:00</updated><content type="html"><![CDATA[<p><img src="https://github.com/goohugo/myblog/assets/124132611/506eecac-b1bb-4f83-aaf2-7b4a1c46f8e7" alt="10-ways-to-be-a-better-developer)" /></p>
+]]></content><link href="https://github.com/goohugo/myblog/issues/38"/><category term="Technical Articles"/><published>2024-09-24T07:14:31+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/36</id><title>成为一名优秀开发者的10种方法</title><updated>2024-11-05T00:53:04.167351+00:00</updated><content type="html"><![CDATA[<p><img src="https://github.com/goohugo/myblog/assets/124132611/506eecac-b1bb-4f83-aaf2-7b4a1c46f8e7" alt="10-ways-to-be-a-better-developer)" /></p>
 <ul>
 <li>阅读别人的代码</li>
 <li>让别人阅读你的代码</li>
@@ -21,7 +238,7 @@ taskkill /f /im explorer.exe &amp; start explorer.exe
 <li>每小时离开办公桌休息一下</li>
 </ul>
 <p>这些建议都是为了帮助开发者提高他们的技能和工作效率</p>
-]]></content><link href="https://github.com/goohugo/myblog/issues/36"/><category term="Development"/><published>2024-06-26T07:27:16+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/35</id><title>Code Review Best Practices 读书笔记</title><updated>2024-10-19T06:33:48.106123+00:00</updated><content type="html"><![CDATA[<p>Kevin London在其文章<a href="https://www.kevinlondon.com/2015/05/05/code-review-best-practices">《Code Review Best Practices》</a>中分享了进行代码审查的最佳实践，这些实践适用于软件开发团队，旨在提高代码质量和团队协作。
+]]></content><link href="https://github.com/goohugo/myblog/issues/36"/><category term="Development"/><published>2024-06-26T07:27:16+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/35</id><title>Code Review Best Practices 读书笔记</title><updated>2024-11-05T00:53:04.585108+00:00</updated><content type="html"><![CDATA[<p>Kevin London在其文章<a href="https://www.kevinlondon.com/2015/05/05/code-review-best-practices">《Code Review Best Practices》</a>中分享了进行代码审查的最佳实践，这些实践适用于软件开发团队，旨在提高代码质量和团队协作。
 以下是文章中的主要观点：</p>
 <ul>
 <li>职责单一原则（Single Responsibility Principle）: 一个类或方法应该只负责一项功能。如果描述一个方法的功能需要使用“并且”，这可能意味着方法的职责范围过广，应该考虑分解。</li>
@@ -39,7 +256,7 @@ taskkill /f /im explorer.exe &amp; start explorer.exe
 <li>保持开放心态: 在代码审查中保持开放和非防御性的态度，理解审查的目的在于改进代码质量，而不是个人批评。
 通过遵循这些最佳实践，软件团队可以提升代码的质量、可维护性和团队协作效率。</li>
 </ul>
-]]></content><link href="https://github.com/goohugo/myblog/issues/35"/><category term="Development"/><published>2024-06-26T07:19:57+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/32</id><title>使用存储过程非常慢，但是执行SQL很快的解决方案</title><updated>2024-10-19T06:33:48.443770+00:00</updated><content type="html"><![CDATA[<h1>前言</h1>
+]]></content><link href="https://github.com/goohugo/myblog/issues/35"/><category term="Development"/><published>2024-06-26T07:19:57+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/32</id><title>使用存储过程非常慢，但是执行SQL很快的解决方案</title><updated>2024-11-05T00:53:05.010693+00:00</updated><content type="html"><![CDATA[<h1>前言</h1>
 <p>最近，在工作中发现，两个问题:</p>
 <ol>
 <li>应用程序调用存储过程很慢，但是在查询分析器中把SQL语句拿出来执行存储过程就很快。</li>
@@ -72,7 +289,7 @@ BEGIN
 END
 </code></pre>
 <p>以上，亲测有效~</p>
-]]></content><link href="https://github.com/goohugo/myblog/issues/32"/><category term="Technical Articles"/><published>2024-02-28T00:51:07+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/31</id><title>《繁花》爆火，这35句台词炸裂了</title><updated>2024-10-19T06:33:48.761661+00:00</updated><content type="html"><![CDATA[<p>01.大暑之后必要大寒。一定记住，这是规律。</p>
+]]></content><link href="https://github.com/goohugo/myblog/issues/32"/><category term="Technical Articles"/><published>2024-02-28T00:51:07+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/31</id><title>《繁花》爆火，这35句台词炸裂了</title><updated>2024-11-05T00:53:05.435062+00:00</updated><content type="html"><![CDATA[<p>01.大暑之后必要大寒。一定记住，这是规律。</p>
 <p>02.外行看门面，内行看后门。</p>
 <p>03.你以为吃的是龙虾，实际上吃的是机会，一只龙虾就是一个机会。不是在应酬，就是在求人。</p>
 <p>04.凡事，总要留一手。</p>
@@ -107,7 +324,7 @@ END
 <p>33.在老天爷看来，都是必然的。一种选择，一种人生，不是你晓得对跟错，就能够逃得掉的。</p>
 <p>34.人生两个问题，第一，找到问题，第二，把它解决掉。</p>
 <p>35.只有看到未来，才会有未来。</p>
-]]></content><link href="https://github.com/goohugo/myblog/issues/31"/><published>2024-01-10T10:23:45+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/30</id><title>WeeklyReport 2024</title><updated>2024-10-19T06:33:49.090357+00:00</updated><content type="html"><![CDATA[<blockquote>
+]]></content><link href="https://github.com/goohugo/myblog/issues/31"/><published>2024-01-10T10:23:45+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/30</id><title>WeeklyReport 2024</title><updated>2024-11-05T00:53:05.841644+00:00</updated><content type="html"><![CDATA[<blockquote>
 <p>English, code, write, speech, read，这个时代复利最高的五件事。</p>
 </blockquote>
 <ul>
@@ -354,7 +571,7 @@ END
 </ul>
 </li>
 </ul>
-]]></content><link href="https://github.com/goohugo/myblog/issues/30"/><category term="Life"/><category term="Top"/><published>2024-01-06T05:49:57+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/29</id><title>数据库更新表数据，从另一个表中取值</title><updated>2024-10-19T06:33:49.425120+00:00</updated><content type="html"><![CDATA[<h2>SQL SERVER</h2>
+]]></content><link href="https://github.com/goohugo/myblog/issues/30"/><category term="Life"/><category term="Top"/><published>2024-01-06T05:49:57+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/29</id><title>数据库更新表数据，从另一个表中取值</title><updated>2024-11-05T00:53:06.267679+00:00</updated><content type="html"><![CDATA[<h2>SQL SERVER</h2>
 <pre><code>UPDATE  A set A.C=B.C 
 from  tableA  as A（别名）,tableB as  B （别名）
 where A.列= B.列
@@ -371,7 +588,7 @@ set  A.C=B.C
 set atest.ORG_CODE=(select ctest.code from C_TEST ctest where atest.id = ctest.id)
 where atest.id in  (select ctest.id FROM TEST ctest);
 </code></pre>
-]]></content><link href="https://github.com/goohugo/myblog/issues/29"/><category term="Technical Articles"/><published>2023-10-25T07:58:59+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/28</id><title>获取 hash</title><updated>2024-10-19T06:33:49.841600+00:00</updated><content type="html"><![CDATA[<p>Mirror 内部做了一层 GitHub API token 的字符转换，解决不小心把 token 上传到 GitHub 后被删的问题</p>
+]]></content><link href="https://github.com/goohugo/myblog/issues/29"/><category term="Technical Articles"/><published>2023-10-25T07:58:59+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/28</id><title>获取 hash</title><updated>2024-11-05T00:53:06.707613+00:00</updated><content type="html"><![CDATA[<p>Mirror 内部做了一层 GitHub API token 的字符转换，解决不小心把 token 上传到 GitHub 后被删的问题</p>
 <p>下面是获取 <code>hash</code> 的步骤</p>
 <ol>
 <li>获取 <a href="https://github.com/LoeiFy/Mirror/wiki/Token-%E8%AE%BE%E7%BD%AE">token</a></li>
@@ -381,7 +598,7 @@ where atest.id in  (select ctest.id FROM TEST ctest);
 </ol>
 <p><img src="https://user-images.githubusercontent.com/2193211/54478294-7689cc00-484b-11e9-9f45-8157cf92d180.png" alt="example" /></p>
 <p>得到的字符就是 <code>hash</code> 串</p>
-]]></content><link href="https://github.com/goohugo/myblog/issues/28"/><category term="Technical Articles"/><published>2023-08-11T01:54:02+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/27</id><title>Mirror 中文教程</title><updated>2024-10-19T06:33:50.172502+00:00</updated><content type="html"><![CDATA[<ol>
+]]></content><link href="https://github.com/goohugo/myblog/issues/28"/><category term="Technical Articles"/><published>2023-08-11T01:54:02+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/27</id><title>Mirror 中文教程</title><updated>2024-11-05T00:53:07.154844+00:00</updated><content type="html"><![CDATA[<ol>
 <li>
 <p>下载 <code>Mirror</code> 的最新版本 <a href="https://github.com/LoeiFy/Mirror/raw/master/release/mirror.zip">地址</a></p>
 </li>
@@ -412,7 +629,7 @@ window.config = {
 ...
 </code></pre>
 <p>保存 <code>index.html</code>， 然后将所有文件 push 到 <code>gh-pages</code> 分支或者 <code>master</code> 分支的 <code>docs</code> 目录</p>
-]]></content><link href="https://github.com/goohugo/myblog/issues/27"/><category term="Technical Articles"/><published>2023-08-11T01:51:16+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/26</id><title>WeeklyReport 2023</title><updated>2024-10-19T06:33:50.489845+00:00</updated><content type="html"><![CDATA[<blockquote>
+]]></content><link href="https://github.com/goohugo/myblog/issues/27"/><category term="Technical Articles"/><published>2023-08-11T01:51:16+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/26</id><title>WeeklyReport 2023</title><updated>2024-11-05T00:53:07.565276+00:00</updated><content type="html"><![CDATA[<blockquote>
 <p>English, code, write, speech, read，这个时代复利最高的五件事。</p>
 </blockquote>
 <ul>
@@ -802,7 +1019,7 @@ window.config = {
 </ul>
 </li>
 </ul>
-]]></content><link href="https://github.com/goohugo/myblog/issues/26"/><category term="Life"/><published>2023-08-02T05:57:13+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/25</id><title> EF-查询缓存</title><updated>2024-10-19T06:33:50.813203+00:00</updated><content type="html"><![CDATA[<p>同一个DbContext实例，EF会对查询过的数据进行缓存。对DbContext的生存期的管理需根据当前的应用来处理（如web、win），尽量不要采用全局的DbContext。也可在查询中采用AsNoTracking避免从缓存中取数据。</p>
+]]></content><link href="https://github.com/goohugo/myblog/issues/26"/><category term="Life"/><published>2023-08-02T05:57:13+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/25</id><title> EF-查询缓存</title><updated>2024-11-05T00:53:07.992190+00:00</updated><content type="html"><![CDATA[<p>同一个DbContext实例，EF会对查询过的数据进行缓存。对DbContext的生存期的管理需根据当前的应用来处理（如web、win），尽量不要采用全局的DbContext。也可在查询中采用AsNoTracking避免从缓存中取数据。</p>
 <p>1、问题</p>
 <p>构建一个全局的或某个业务场景内唯一的DbContext</p>
 <pre><code>public OTBll()
@@ -863,7 +1080,7 @@ public static VpoEntities GetCurrentDemoContext()
 }
 </code></pre>
 <p><a href="https://www.cnblogs.com/hepc/p/10253414.html">原文地址</a></p>
-]]></content><link href="https://github.com/goohugo/myblog/issues/25"/><category term="Development"/><published>2023-07-23T08:16:26+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/24</id><title>Ubuntu分区方案</title><updated>2024-10-19T06:33:51.125281+00:00</updated><content type="html"><![CDATA[<h1>Ubuntu分区方案</h1>
+]]></content><link href="https://github.com/goohugo/myblog/issues/25"/><category term="Development"/><published>2023-07-23T08:16:26+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/24</id><title>Ubuntu分区方案</title><updated>2024-11-05T00:53:08.399415+00:00</updated><content type="html"><![CDATA[<h1>Ubuntu分区方案</h1>
 <p><a href="https://www.cnblogs.com/raina/p/11129375.html">原文地址</a></p>
 <ul>
 <li>swap: 4G(跟你自己内存一样大)；主分区；空间起始位置；用于交换空间</li>
@@ -884,7 +1101,7 @@ public static VpoEntities GetCurrentDemoContext()
 </ul>
 <p>已经使用 Ubuntu 快一年了，贴一张各分区使用情况图：</p>
 <p><img src="https://github.com/haoz0x139/myblog/assets/124132611/bdf837bd-f326-4af7-a4a2-0e3a957ee0bc" alt="image" /></p>
-]]></content><link href="https://github.com/goohugo/myblog/issues/24"/><category term="Technical Articles"/><published>2023-07-03T08:10:11+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/23</id><title>MySQL8绿色版安装简明教程</title><updated>2024-10-19T06:33:51.452508+00:00</updated><content type="html"><![CDATA[<h1>背景</h1>
+]]></content><link href="https://github.com/goohugo/myblog/issues/24"/><category term="Technical Articles"/><published>2023-07-03T08:10:11+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/23</id><title>MySQL8绿色版安装简明教程</title><updated>2024-11-05T00:53:08.820701+00:00</updated><content type="html"><![CDATA[<h1>背景</h1>
 <ul>
 <li>开发安装MySQL8版本，但是直接使用安装包安装，无法设置安装路径，mysql会直接安装到系统盘。不喜欢这样，所以选择MySQL8绿色版安装</li>
 </ul>
@@ -992,7 +1209,7 @@ default-character-set=utf8mb4
 </ul>
 </li>
 </ul>
-]]></content><link href="https://github.com/goohugo/myblog/issues/23"/><category term="Technical Articles"/><published>2023-06-13T00:19:10+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/22</id><title>Win10神州网信政府版安装过程</title><updated>2024-10-19T06:33:51.773494+00:00</updated><content type="html"><![CDATA[<blockquote>
+]]></content><link href="https://github.com/goohugo/myblog/issues/23"/><category term="Technical Articles"/><published>2023-06-13T00:19:10+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/22</id><title>Win10神州网信政府版安装过程</title><updated>2024-11-05T00:53:09.310495+00:00</updated><content type="html"><![CDATA[<blockquote>
 <p>Win10神州网信政府版（企业版G）下载地址
 64位（也只有64位的版本）
 ed2k://|file|CMGE_V2020-L.1207.iso|4736782336|8F2FC33635D79963CBB0A43C4A916200|/</p>
@@ -1018,7 +1235,7 @@ slmgr /skms kms.03k.org
 slmgr /ato
 </code></pre>
 <p>Enjoy it</p>
-]]></content><link href="https://github.com/goohugo/myblog/issues/22"/><category term="Technical Articles"/><published>2023-06-04T07:24:35+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/21</id><title>科目三终于通过了</title><updated>2024-10-19T06:33:52.097019+00:00</updated><content type="html"><![CDATA[<blockquote>
+]]></content><link href="https://github.com/goohugo/myblog/issues/22"/><category term="Technical Articles"/><published>2023-06-04T07:24:35+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/21</id><title>科目三终于通过了</title><updated>2024-11-05T00:53:09.727447+00:00</updated><content type="html"><![CDATA[<blockquote>
 <p>2023年5月11日终于通过了科目三考试，总结下这次可以一把通过考试的原因。</p>
 </blockquote>
 <ul>
@@ -1032,7 +1249,7 @@ slmgr /ato
 <li>在最后靠边停车，没有正确理解考官的意图，慌乱中，考官一脚刹车，拉起手刹，回空档，熄火，让我赶紧下车。我还以为自己挂了，但又感觉哪里不对，当我听到考试合格的指令后，才反应过来，原来自己通过了考试。</li>
 <li>感谢教练，没教练安排，可能不会把我排在后面一个上车，感谢考官，没有那一脚刹车，估计我也会像上一位一样，考第二遍，心态肯定要崩，也不会通过考试了。</li>
 </ul>
-]]></content><link href="https://github.com/goohugo/myblog/issues/21"/><category term="Life"/><published>2023-05-14T09:00:22+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/20</id><title>[笔记]纳瓦尔宝典</title><updated>2024-10-19T06:33:52.430279+00:00</updated><content type="html"><![CDATA[<h1>纳瓦尔宝典</h1>
+]]></content><link href="https://github.com/goohugo/myblog/issues/21"/><category term="Life"/><published>2023-05-14T09:00:22+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/20</id><title>[笔记]纳瓦尔宝典</title><updated>2024-11-05T00:53:10.232579+00:00</updated><content type="html"><![CDATA[<h1>纳瓦尔宝典</h1>
 <blockquote>
 <p>作者：埃里克·乔根森；数量：19个笔记；时间：2023-03-1811:23:07</p>
 </blockquote>
@@ -1155,7 +1372,7 @@ slmgr /ato
 </ul>
 </li>
 </ul>
-]]></content><link href="https://github.com/goohugo/myblog/issues/20"/><category term="Life"/><published>2023-04-30T07:36:23+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/19</id><title>[笔记]皮囊 </title><updated>2024-10-19T06:33:52.763977+00:00</updated><content type="html"><![CDATA[<h1>皮囊</h1>
+]]></content><link href="https://github.com/goohugo/myblog/issues/20"/><category term="Life"/><published>2023-04-30T07:36:23+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/19</id><title>[笔记]皮囊 </title><updated>2024-11-05T00:53:10.654054+00:00</updated><content type="html"><![CDATA[<h1>皮囊</h1>
 <blockquote>
 <p>作者：蔡崇达；数量：6个笔记；时间：2023-04-20 11:23:07</p>
 </blockquote>
@@ -1189,7 +1406,7 @@ slmgr /ato
 <ul>
 <li>在我生活的这个小镇，所有人都笃信举头三尺有神明，也相信有魂灵，人与鬼神亲近地生活着。我们还相信，魂灵有着和现世一样的属性，会饿到，也会吃太饱，会太胖，然后也会心情不好也会闷出病……</li>
 </ul>
-]]></content><link href="https://github.com/goohugo/myblog/issues/19"/><category term="Life"/><published>2023-04-30T07:22:29+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/18</id><title>运用.NET框架下的SerialPort类，解决电商包裹称重问题</title><updated>2024-10-19T06:33:53.081856+00:00</updated><content type="html"><![CDATA[<p>当前，几乎所有的电商综合管理系统已将包裹称重环节纳入核心流程，尤其在食品电商领域，其系统内集成的包裹称重功能模块扮演着关键角色，有效防止因包裹重量信息误差而导致的发货差错，并能迅速识别异常包裹，有力地减少了包裹误发的现象。</p>
+]]></content><link href="https://github.com/goohugo/myblog/issues/19"/><category term="Life"/><published>2023-04-30T07:22:29+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/18</id><title>运用.NET框架下的SerialPort类，解决电商包裹称重问题</title><updated>2024-11-05T00:53:11.064872+00:00</updated><content type="html"><![CDATA[<p>当前，几乎所有的电商综合管理系统已将包裹称重环节纳入核心流程，尤其在食品电商领域，其系统内集成的包裹称重功能模块扮演着关键角色，有效防止因包裹重量信息误差而导致的发货差错，并能迅速识别异常包裹，有力地减少了包裹误发的现象。</p>
 <p>在食品电商应用的ERP系统中，包裹称重步骤通常嵌入在订单履行流程之中。鉴于顾客下单的商品种类多样、规格各异，采用精确的电子秤进行逐一称重，确保每个商品的实际净重无误，从而杜绝了拣货失误的问题。倘若包裹称重环节设计欠佳，则可能导致一系列错发、漏发事件，进而对整体售后服务品质造成负面影响。</p>
 <p>在构建包裹称重体系时，每一个商品均需经过严格的重量测定，商品属性应明确包含净重和总重两项指标。其中，净重是指单一商品本身的标准重量，例如一款40克装的巴西松子其净重为0.04千克；而总重则涵盖了商品及其外包装材料的整体重量，一般情况下会略高于净重。此外，包裹所用的纸箱同样需要逐一称重并记录在案，不同的纸箱规格及其对应重量应在系统产品数据库中预先设定。</p>
 <p>包裹重量核验阶段，系统自动执行计算公式：包裹总重 = 纸箱重量 + 商品重量，并要求实际称重数值落在允许的合理偏差范围内。考虑到部分散装商品可能会因自然溢出等因素稍有超出标定重量，这个误差范围通常会被设计得具有一定包容性。</p>
@@ -1261,7 +1478,7 @@ slmgr /ato
             }            
 }
 </code></pre>
-]]></content><link href="https://github.com/goohugo/myblog/issues/18"/><category term="Development"/><published>2023-04-30T06:45:32+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/17</id><title>Github访问速度慢的解决方案</title><updated>2024-10-19T06:33:53.407203+00:00</updated><content type="html"><![CDATA[<p>作为国内的用户，我相信绝大多数的家人们都遇到过一个问题，那就是访问github的时候非常非常慢。甚至有的时候访问网站页面直接死掉。这个时候该有人说了，我有梯子我不怕，上网速度嗖嗖的。</p>
+]]></content><link href="https://github.com/goohugo/myblog/issues/18"/><category term="Development"/><published>2023-04-30T06:45:32+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/17</id><title>Github访问速度慢的解决方案</title><updated>2024-11-05T00:53:11.499259+00:00</updated><content type="html"><![CDATA[<p>作为国内的用户，我相信绝大多数的家人们都遇到过一个问题，那就是访问github的时候非常非常慢。甚至有的时候访问网站页面直接死掉。这个时候该有人说了，我有梯子我不怕，上网速度嗖嗖的。</p>
 <p>但是如果我们不使用梯子的情况下该怎么办呢？毕竟使用github也是我们的日常。</p>
 <h1>Github打开慢的原因：</h1>
 <pre><code>  GitHub的CDN(Content Delivery Network,即内容分发网络)域名遭到DNS污染，无法连接使用GitHub的加速分发服务器，
@@ -1305,7 +1522,7 @@ https://toolwa.com/github/ （GitHub 加速下载）
 </code></pre>
 <p>也就是说上面的镜像就是一个克隆版的 GitHub，你可以访问上面的镜像网站，网站的内容跟 GitHub 是完整同步的镜像，然后在这个网站里面进行下载克隆等操作。</p>
 <p>注意是否已失效，当然也可搜索其他的镜像网址或加速网站。</p>
-]]></content><link href="https://github.com/goohugo/myblog/issues/17"/><category term="Technical Articles"/><published>2023-04-30T04:48:33+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/16</id><title>SQL2012的新分页方法</title><updated>2024-10-19T06:33:53.726407+00:00</updated><content type="html"><![CDATA[<pre><code>DECLARE @PageNumber INT = 6
+]]></content><link href="https://github.com/goohugo/myblog/issues/17"/><category term="Technical Articles"/><published>2023-04-30T04:48:33+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/16</id><title>SQL2012的新分页方法</title><updated>2024-11-05T00:53:11.917075+00:00</updated><content type="html"><![CDATA[<pre><code>DECLARE @PageNumber INT = 6
 DECLARE @RowsCountPerPage INT = 10
 
 SELECT  BusinessEntityID ,
@@ -1317,7 +1534,7 @@ ORDER BY BusinessEntityID
  FETCH NEXT @RowsCountPerPage ROWS ONLY
 
 </code></pre>
-]]></content><link href="https://github.com/goohugo/myblog/issues/16"/><category term="Technical Articles"/><published>2023-04-29T09:19:51+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/14</id><title>有哪些很重要又被忽视的炒菜技巧</title><updated>2024-10-19T06:33:54.059714+00:00</updated><content type="html"><![CDATA[<p>1.肉类焯水要用冷水入锅，热水下锅外面的肉直接熟了，血水锁在里面出不来。</p>
+]]></content><link href="https://github.com/goohugo/myblog/issues/16"/><category term="Technical Articles"/><published>2023-04-29T09:19:51+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/14</id><title>有哪些很重要又被忽视的炒菜技巧</title><updated>2024-11-05T00:53:12.343910+00:00</updated><content type="html"><![CDATA[<p>1.肉类焯水要用冷水入锅，热水下锅外面的肉直接熟了，血水锁在里面出不来。</p>
 <p>2.煮鸡蛋要在水还没开的时候下锅，以免蛋白质受到水流冲击变散，包裹空气变成浮沫。</p>
 <p>3.煮挂面要在水里起小气泡的时候下锅，盖上锅盖，水开就往里面点凉水。水再次开的时候，面差不多就熟了。</p>
 <p>4.鲜的手擀面，要在水开的时候下锅，搅动的时候必须往一个方向，避免黏连。火开到最大，小火面条容易糊化。点两次凉水。</p>
@@ -1348,9 +1565,9 @@ ORDER BY BusinessEntityID
 <p>29.炒方便面的面只能8分熟，不要全熟。水开之后下面，到面饼能打散，立刻捞出来，过凉水。炒方便面的调料加一点豆瓣酱更好吃，也可以用辣椒酱。加生抽老抽蚝油和糖。</p>
 <p>30.汤里面打蛋花，要在锅开了之后，关火打入蛋花。</p>
 <p>31.起锅的时候再加盐和醋，过早加盐，蔬菜里的水分析出来，口感黏软；醋易挥发，先加的话会破坏色泽和口感。</p>
-]]></content><link href="https://github.com/goohugo/myblog/issues/14"/><category term="Life"/><published>2023-03-20T01:01:19+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/13</id><title>解决Win10电脑无法登录微软账号的方法</title><updated>2024-10-19T06:33:54.388043+00:00</updated><content type="html"><![CDATA[<p>设置IP地址的dns为：首选DNS 服务器 4.2.2.2   备用DNS 服务器 4.2.2.1
+]]></content><link href="https://github.com/goohugo/myblog/issues/14"/><category term="Life"/><published>2023-03-20T01:01:19+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/13</id><title>解决Win10电脑无法登录微软账号的方法</title><updated>2024-11-05T00:53:12.770764+00:00</updated><content type="html"><![CDATA[<p>设置IP地址的dns为：首选DNS 服务器 4.2.2.2   备用DNS 服务器 4.2.2.1
 <a href="https://zhuanlan.zhihu.com/p/365217700">具体操作步骤参考</a></p>
-]]></content><link href="https://github.com/goohugo/myblog/issues/13"/><category term="Technical Articles"/><published>2023-03-05T03:20:15+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/12</id><title>省市区地址解析</title><updated>2024-10-19T06:33:54.715541+00:00</updated><content type="html"><![CDATA[<pre><code>public string Analysis(string address)
+]]></content><link href="https://github.com/goohugo/myblog/issues/13"/><category term="Technical Articles"/><published>2023-03-05T03:20:15+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/12</id><title>省市区地址解析</title><updated>2024-11-05T00:53:13.245232+00:00</updated><content type="html"><![CDATA[<pre><code>public string Analysis(string address)
 {  
             string regex = @&quot;(?&lt;province&gt;[^省]+自治区|.*?省)?(?&lt;city&gt;[^市]+自治州|.*?地区|.*?行政单位|.+盟|市辖区|.*?市)?(?&lt;county&gt;[^县]+县|[^区]+区|[^市]+市|.+旗|.+海域|.+岛)?(?&lt;town&gt;[^区]+区|.+镇|.+办事处)?(?&lt;village&gt;.*)&quot;;
             var m = Regex.Match(addr, regex, RegexOptions.IgnoreCase);
@@ -1361,7 +1578,7 @@ ORDER BY BusinessEntityID
             var village = m.Groups[&quot;village&quot;].Value;//详细地址
 }
 </code></pre>
-]]></content><link href="https://github.com/goohugo/myblog/issues/12"/><category term="Development"/><published>2023-02-13T05:05:40+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/10</id><title>git中的SSL证书问题：无法获取本地颁发者证书错误的解决办法</title><updated>2024-10-19T06:33:55.038312+00:00</updated><content type="html"><![CDATA[<p>我们在使用git初始化一个项目时，尤其是通过git submodule update --init --remote初始化子模块时，可能会遇到下面这个错误：
+]]></content><link href="https://github.com/goohugo/myblog/issues/12"/><category term="Development"/><published>2023-02-13T05:05:40+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/10</id><title>git中的SSL证书问题：无法获取本地颁发者证书错误的解决办法</title><updated>2024-11-05T00:53:13.678182+00:00</updated><content type="html"><![CDATA[<p>我们在使用git初始化一个项目时，尤其是通过git submodule update --init --remote初始化子模块时，可能会遇到下面这个错误：
 fatal: unable to access 'https://myserver.com/gogs/user1/myapp/': SSL certificate problem: unable to get local issuer certificate</p>
 <p>这是由于当你通过HTTPS访问Git远程仓库的时候，如果服务器上的SSL证书未经过第三方机构认证，git就会报错。原因是因为未知的没有签署过的证书意味着可能存在很大的风险。解决办法就是通过下面的命令将git中的sslverify关掉：</p>
 <pre><code>git config --global http.sslverify false
@@ -1376,7 +1593,7 @@ fatal: unable to access 'https://myserver.com/gogs/user1/myapp/': SSL certificat
 <pre><code>npm config set strict-ssl false
 </code></pre>
 <p>对于npm而言，除了可以在package.json的scripts属性中自定义脚本外，npm-scripts也内置了一些脚本，用来在特定的时机执行某些特定的任务，具体可以参照npm的官方文档https://docs.npmjs.com/misc/scripts</p>
-]]></content><link href="https://github.com/goohugo/myblog/issues/10"/><category term="Technical Articles"/><published>2023-02-07T01:13:10+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/9</id><title>Scoop windows下的包管理器</title><updated>2024-10-19T06:33:55.361738+00:00</updated><content type="html"><![CDATA[<h1>Scoop 安装</h1>
+]]></content><link href="https://github.com/goohugo/myblog/issues/10"/><category term="Technical Articles"/><published>2023-02-07T01:13:10+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/9</id><title>Scoop windows下的包管理器</title><updated>2024-11-05T00:53:14.092097+00:00</updated><content type="html"><![CDATA[<h1>Scoop 安装</h1>
 <h2>环境需求</h2>
 <ul>
 <li>PowerShell 5 +</li>
@@ -1469,10 +1686,10 @@ scoop update *  #更新所有软件
 scoop list  #列出已安装的软件
 scoop bucket list  #列出已订阅的仓库
 </code></pre>
-]]></content><link href="https://github.com/goohugo/myblog/issues/9"/><category term="Technical Articles"/><published>2023-02-03T08:20:51+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/6</id><title>奇趣网站</title><updated>2024-10-19T06:33:55.691798+00:00</updated><content type="html"><![CDATA[<ul>
+]]></content><link href="https://github.com/goohugo/myblog/issues/9"/><category term="Technical Articles"/><published>2023-02-03T08:20:51+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/6</id><title>奇趣网站</title><updated>2024-11-05T00:53:14.491672+00:00</updated><content type="html"><![CDATA[<ul>
 <li>收藏有趣的网站</li>
 </ul>
-]]></content><link href="https://github.com/goohugo/myblog/issues/6"/><category term="Friends"/><published>2023-02-02T07:53:36+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/1</id><title>WeeklyReport 2022</title><updated>2024-10-19T06:33:56.020576+00:00</updated><content type="html"><![CDATA[<blockquote>
+]]></content><link href="https://github.com/goohugo/myblog/issues/6"/><category term="Friends"/><published>2023-02-02T07:53:36+00:00</published></entry><entry><id>https://github.com/goohugo/myblog/issues/1</id><title>WeeklyReport 2022</title><updated>2024-11-05T00:53:14.907464+00:00</updated><content type="html"><![CDATA[<blockquote>
 <p>人生不是一种享乐，而是一桩十分沉重的工作。</p>
 </blockquote>
 <ul>
