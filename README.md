@@ -14,7 +14,7 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 ## 置顶文章
 - [WeeklyReport 2024](https://github.com/goohugo/myblog/issues/30)--2024-01-06
 ## 最近更新
-- [比特币：一种点对点的电子现金系统](https://github.com/goohugo/myblog/issues/39)--2024-11-05
+- [比特币白皮书中文版](https://github.com/goohugo/myblog/issues/39)--2024-11-05
 - [Win11 右键菜单优化代码](https://github.com/goohugo/myblog/issues/38)--2024-09-24
 - [成为一名优秀开发者的10种方法](https://github.com/goohugo/myblog/issues/36)--2024-06-26
 - [Code Review Best Practices 读书笔记](https://github.com/goohugo/myblog/issues/35)--2024-06-26
