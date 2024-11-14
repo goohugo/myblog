@@ -1,4 +1,4 @@
-# [git中的SSL证书问题：无法获取本地颁发者证书错误的解决办法](https://github.com/haoz0x139/myblog/issues/10)
+# [git中的SSL证书问题：无法获取本地颁发者证书错误的解决办法](https://github.com/goohugo/myblog/issues/10)
 
 我们在使用git初始化一个项目时，尤其是通过git submodule update --init --remote初始化子模块时，可能会遇到下面这个错误：
 fatal: unable to access 'https://myserver.com/gogs/user1/myapp/': SSL certificate problem: unable to get local issuer certificate
