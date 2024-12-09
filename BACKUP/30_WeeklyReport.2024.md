@@ -1,6 +1,9 @@
 # [WeeklyReport 2024](https://github.com/goohugo/myblog/issues/30)
 
 > English, code, write, speech, read，这个时代复利最高的五件事。
+- **D49**
+    - 仓库 - 生产存储过程sql语句优化
+    - 其它- 生产大礼包组装任务
 - **D48**
     - 仓库 - 销售单维护新增电商退货数据导入功能
     - 仓库 - 调拨单维护新增待处理仓库库存数据批量加载功能
