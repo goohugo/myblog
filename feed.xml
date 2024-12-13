@@ -1,5 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/goohugo/myblog</id><title>RSS feed of goohugo's myblog</title><updated>2024-12-13T03:08:59.450137+00:00</updated><author><name>goohugo</name><email>haoz0x139@gmail.com</email></author><link href="https://github.com/goohugo/myblog"/><link href="https://raw.githubusercontent.com/goohugo/myblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><entry><id>https://github.com/goohugo/myblog/issues/40</id><title>System.Data.SqlClient could not be loaded解决办法</title><updated>2024-12-13T03:09:00.432260+00:00</updated><content type="html"><![CDATA[<h2>问题现象</h2>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/goohugo/myblog</id><title>RSS feed of goohugo's myblog</title><updated>2024-12-13T03:08:59.450137+00:00</updated><author><name>goohugo</name><email>haoz0x139@gmail.com</email></author><link href="https://github.com/goohugo/myblog"/><link href="https://raw.githubusercontent.com/goohugo/myblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><follow_challenge>
+    <feedId>90225941135244288</feedId>
+    <userId>55464810170504192</userId>
+</follow_challenge>
+	<entry><id>https://github.com/goohugo/myblog/issues/40</id><title>System.Data.SqlClient could not be loaded解决办法</title><updated>2024-12-13T03:09:00.432260+00:00</updated><content type="html"><![CDATA[<h2>问题现象</h2>
 <pre><code>The Entity Framework provider type &#x27;System.Data.Entity.SqlServer.SqlProviderServices, 
 EntityFramework.SqlServer&#x27; registered in the application config file for the ADO.NET provider with invariant name
  &#x27;System.Data.SqlClient&#x27; could not be loaded. Make sure that the assembly-qualified name is used and that the 
