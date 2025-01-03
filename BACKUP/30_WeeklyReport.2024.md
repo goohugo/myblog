@@ -1,6 +1,12 @@
 # [WeeklyReport 2024](https://github.com/goohugo/myblog/issues/30)
 
 > English, code, write, speech, read，这个时代复利最高的五件事。
+- **D52**
+    - 其它- 生产大礼包组装任务
+- **D51**
+    - 电商 - 实现仓库销售单与电商调拨单比对功能
+- **D50**
+    -  生产 - 产品结构图汇总功能优化
 - **D49**
     - 仓库 - 生产存储过程sql语句优化
     - 其它- 生产大礼包组装任务
