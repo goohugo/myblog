@@ -15,8 +15,8 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 - [WeeklyReport 2025](https://github.com/goohugo/myblog/issues/42)--2025-01-17
 - [WeeklyReport 2024](https://github.com/goohugo/myblog/issues/30)--2024-01-06
 ## 最近更新
-- [【xAI】BTC走势分析(2025.5.1 )](https://github.com/goohugo/myblog/issues/50)--2025-05-02
 - [设置Mac合上盖子不休眠](https://github.com/goohugo/myblog/issues/49)--2025-04-19
 - [WeeklyReport 2025](https://github.com/goohugo/myblog/issues/42)--2025-01-17
 - [GitHub连不上怎么办？](https://github.com/goohugo/myblog/issues/41)--2024-12-17
 - [System.Data.SqlClient could not be loaded解决办法](https://github.com/goohugo/myblog/issues/40)--2024-12-13
+- [比特币白皮书中文版](https://github.com/goohugo/myblog/issues/39)--2024-11-05
